@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Chicago Summer — Travel Journal</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="flagstripe" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+<!-- ================= MASTHEAD ================= -->
+<header class="masthead">
+  <div class="masthead__inner">
+    <span class="eyebrow">
+      <span class="stars" id="eyebrow-stars" aria-hidden="true"></span>
+      A Chicago Travel Journal · Summer 2026
+    </span>
+    <h1>My Chicago <em>Summer</em></h1>
+    <p class="sub">Every street I walked, every place I've been, and everywhere I still want to go — mapped, logged, and remembered. Home base: Presidential Towers, West Loop.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="skyline" id="skyline" aria-hidden="true"></div>
+</header>
+
+<main class="wrap">
+
+  <!-- ================= PLAN / RECOMMENDATIONS ================= -->
+  <section id="plan-section" style="margin-top:30px">
+    <div id="countdown" class="countdown"></div>
+    <div id="progress" class="progress"></div>
+
+    <div class="section-head">
+      <div><h2>What should I do?</h2></div>
+      <p>Live recommendations from your want-to-go list</p>
+    </div>
+    <div class="rec-tabs" id="rec-tabs">
+      <button class="rec-tab is-active" data-mode="urgent">⏳ Running out of days</button>
+      <button class="rec-tab" data-mode="open">🟢 Open right now</button>
+      <button class="rec-tab" data-mode="free">💙 Free &amp; open today</button>
+      <button class="rec-tab" data-mode="near">🚶 Walkable today</button>
+    </div>
+    <div class="rec-list" id="recs"></div>
+    <p style="font-size:12px;color:var(--muted);margin-top:12px;line-height:1.6">
+      ⚠ <strong>Hours and prices are my best guess</strong> — I pre-filled all 119 places so you
+      wouldn't have to, but verify anything you're travelling across the city for. Every field is
+      editable: click a place → <strong>✎ Edit</strong>. Corrections save instantly (and commit to
+      GitHub if you've connected it).
+    </p>
+  </section>
+
+  <!-- ================= MAP ================= -->
+  <section id="map-section">
+    <div class="section-head">
+      <div>
+        <h2>The Map</h2>
+      </div>
+      <p>Hover a pin for a peek · click for the full journal entry</p>
+    </div>
+
+    <div class="cat-chips" id="cat-chips"></div>
+
+    <div class="controls">
+      <label class="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="search" id="search" placeholder="Search places…" autocomplete="off" />
+      </label>
+      <div class="chips" id="filters">
+        <button class="chip is-active" data-filter="all">All</button>
+        <button class="chip" data-filter="visited">Visited</button>
+        <button class="chip" data-filter="want-to-go">Want to go</button>
+        <button class="chip" data-filter="favorite">★ Favorites</button>
+      </div>
+      <button class="btn-add" id="open-add">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        Add a place
+      </button>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <!-- ================= PLACES GRID ================= -->
+  <section id="places-section">
+    <div class="section-head">
+      <div><h2>The Places</h2></div>
+      <p id="grid-count"></p>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="skyline footer__sky" id="skyline-foot" aria-hidden="true"></div>
+  <div class="footer__inner">
+    <div>
+      <strong>My Chicago Summer</strong> — a living travel journal.<br />
+      Street data from <a id="cs-link" href="https://citystrides.com/users/109461/cities/2661" target="_blank" rel="noopener">CityStrides</a>.
+    </div>
+    <div class="stars" id="foot-stars" aria-hidden="true"></div>
+  </div>
+</footer>
+
+<!-- ================= DETAIL PANEL ================= -->
+<div class="panel-backdrop" id="panel-backdrop"></div>
+<aside class="panel" id="panel" aria-hidden="true">
+  <div class="panel__scroll" id="panel-scroll"></div>
+</aside>
+
+<!-- ================= ADD-PLACE MODAL ================= -->
+<div class="modal-backdrop" id="add-modal">
+  <div class="modal">
+    <div class="modal__top">
+      <h2>Add a place</h2>
+      <p>Type a name — the site fetches the facts. You edit, then save.</p>
+      <button class="close" id="close-add" aria-label="Close">✕</button>
+    </div>
+    <div class="modal__body">
+      <div class="lookup-row">
+        <input type="text" id="lookup-name" placeholder="e.g. National Museum of Puerto Rican Arts" autocomplete="off" />
+        <button id="lookup-btn">Look up</button>
+      </div>
+      <p class="lookup-hint">Auto-fills address, neighborhood, category, coordinates, a description &amp; a transit suggestion from your home base. Everything stays editable.</p>
+      <div class="lookup-status" id="lookup-status"></div>
+
+      <form id="add-form" autocomplete="off">
+        <div class="form-grid">
+          <div class="full">
+            <label>Place name</label>
+            <input class="edit-field" name="name" required />
+          </div>
+          <div>
+            <label>Status</label>
+            <select class="edit-field" name="status">
+              <option value="want-to-go">Want to go</option>
+              <option value="visited">Visited</option>
+            </select>
+          </div>
+          <div>
+            <label>Category</label>
+            <select class="edit-field" name="type">
+              <option>Scenic</option><option>Museum</option><option>Sports</option>
+              <option>Beach</option><option>Music</option><option>Theatre</option>
+              <option>University</option>
+            </select>
+          </div>
+          <div>
+            <label>Neighborhood</label>
+            <input class="edit-field" name="neighborhood" />
+          </div>
+          <div>
+            <label>Budget</label>
+            <select class="edit-field" name="budget">
+              <option value="">—</option><option>Free</option><option>$</option><option>$$</option><option>$$$</option>
+            </select>
+          </div>
+          <div>
+            <label>Transportation</label>
+            <input class="edit-field" name="transportation" />
+          </div>
+          <div>
+            <label>Favorite?</label>
+            <select class="edit-field" name="favorite">
+              <option value="false">No</option><option value="true">Yes ★</option>
+            </select>
+          </div>
+          <div class="full">
+            <label>Location / address</label>
+            <input class="edit-field" name="location" />
+          </div>
+          <div>
+            <label>Latitude</label>
+            <input class="edit-field" name="lat" />
+          </div>
+          <div>
+            <label>Longitude</label>
+            <input class="edit-field" name="lng" />
+          </div>
+          <div class="full">
+            <label>Photo URL <span style="color:var(--muted);font-weight:400">(optional — or add to /images later)</span></label>
+            <input class="edit-field" name="photo" placeholder="images/my-photo.jpg or https://…" />
+          </div>
+          <div class="full">
+            <label>❓ Why (the pitch)</label>
+            <textarea class="edit-field" name="why" placeholder="Auto-filled from a web summary — reword it in your voice."></textarea>
+          </div>
+          <div class="full">
+            <label>📅 Transit plan</label>
+            <input class="edit-field" name="transitPlan" />
+          </div>
+        </div>
+        <div class="modal__foot">
+          <button type="button" class="pbtn" id="cancel-add">Cancel</button>
+          <button type="submit" class="pbtn pbtn--primary">Save place</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

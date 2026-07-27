@@ -1,0 +1,6309 @@
+[
+  {
+    "id": "360-chicago-observation-deck",
+    "name": "360 CHICAGO Observation Deck",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Attraction",
+    "neighborhood": "Magnificent Mile",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "875 N Michigan Ave",
+    "rating": null,
+    "lat": 41.8988,
+    "lng": -87.6229,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-23:00",
+      "tue": "09:00-23:00",
+      "wed": "09:00-23:00",
+      "thu": "09:00-23:00",
+      "fri": "09:00-23:00",
+      "sat": "09:00-23:00",
+      "sun": "09:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "94th floor of the former John Hancock Center, with the best lake-and-shoreline view in the city (better than Willis for the lakefront). TILT leans you 30 degrees out over Michigan Avenue.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Walk ~28 min from Presidential Towers (1.5 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "amc-newcity-14",
+    "name": "AMC NEWCITY 14",
+    "status": "visited",
+    "favorite": false,
+    "type": "Stage & Screen",
+    "neighborhood": "Lincoln Park",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1500 N Clybourn Ave",
+    "rating": null,
+    "lat": 41.9179,
+    "lng": -87.6533,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-00:00",
+      "tue": "11:00-00:00",
+      "wed": "11:00-00:00",
+      "thu": "11:00-00:00",
+      "fri": "11:00-01:00",
+      "sat": "10:00-01:00",
+      "sun": "10:00-00:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Recliner-seat multiplex in the NEWCITY development, with a Dolby Cinema house. The practical answer to a rainy Chicago evening.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~49 min from Presidential Towers (2.5 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "adler-planetarium",
+    "name": "Adler Planetarium",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Museum Campus",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1300 S Lake Shore Dr",
+    "rating": null,
+    "lat": 41.8663,
+    "lng": -87.6068,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-16:00",
+      "tue": "09:00-16:00",
+      "wed": "09:00-16:00",
+      "thu": "09:00-16:00",
+      "fri": "09:00-16:00",
+      "sat": "09:00-16:00",
+      "sun": "09:00-16:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The first planetarium in the Western Hemisphere (1930). Worth it as much for the view: the walk out to Northerly Island gives the single best straight-on skyline photograph in Chicago.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Walk ~41 min from Presidential Towers (2.1 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "als-1-italian-beef",
+    "name": "Al's #1 Italian Beef",
+    "status": "visited",
+    "favorite": true,
+    "type": "Food & Drink",
+    "neighborhood": "Little Italy",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1079 W Taylor St",
+    "rating": null,
+    "lat": 41.8691,
+    "lng": -87.6533,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-23:00",
+      "tue": "10:00-23:00",
+      "wed": "10:00-23:00",
+      "thu": "10:00-23:00",
+      "fri": "10:00-01:00",
+      "sat": "10:00-01:00",
+      "sun": "10:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The birthplace of Italian beef, invented here in 1938 by Al Ferrari for wedding crowds — thin-sliced beef, gravy-soaked bread, hot giardiniera. Order it 'dipped, hot' and eat it standing at the counter, leaning forward, like everyone else.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~22 min from Presidential Towers (1.1 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "alfred-caldwell-lily-pool",
+    "name": "Alfred Caldwell Lily Pool",
+    "status": "visited",
+    "favorite": true,
+    "type": "Park & Garden",
+    "neighborhood": "Lincoln Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "125 W Fullerton Pkwy",
+    "rating": null,
+    "lat": 41.9241,
+    "lng": -87.6329,
+    "photo": "",
+    "hours": {
+      "mon": "07:30-19:00",
+      "tue": "07:30-19:00",
+      "wed": "07:30-19:00",
+      "thu": "07:30-19:00",
+      "fri": "07:30-19:00",
+      "sat": "07:30-19:00",
+      "sun": "07:30-19:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A National Historic Landmark hidden behind a fence in Lincoln Park: Prairie School landscape architect Alfred Caldwell spent his own savings in 1936 rebuilding it as an idealized Midwestern river landscape — stratified stone ledges, a council ring, a hidden waterfall. Almost nobody knows it's there.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~18 min from Presidential Towers (2.9 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "andersonville",
+    "name": "Andersonville",
+    "status": "visited",
+    "favorite": false,
+    "type": "Neighborhood",
+    "neighborhood": "Andersonville",
+    "budget": "$$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "N Clark St & W Foster Ave",
+    "rating": null,
+    "lat": 41.9773,
+    "lng": -87.669,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-23:00",
+      "sat": "10:00-23:00",
+      "sun": "10:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Chicago's historic Swedish neighborhood, marked by the water tower on Clark Street — now one of the best independent-business strips in the city, with the Swedish American Museum, Women & Children First bookstore, and a strong LGBTQ+ community.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Divvy ~42 min from Presidential Towers (6.7 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "art-institute-of-chicago",
+    "name": "Art Institute of Chicago",
+    "status": "want-to-go",
+    "favorite": true,
+    "type": "Museum",
+    "neighborhood": "The Loop",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "111 S Michigan Ave",
+    "rating": null,
+    "lat": 41.8796,
+    "lng": -87.6237,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-17:00",
+      "tue": null,
+      "wed": null,
+      "thu": "11:00-20:00",
+      "fri": "11:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00"
+    },
+    "notes": "CLOSED Tue & Wed · FREE Thu 5-8pm for IL residents",
+    "scoutingReport": {
+      "why": "The second-largest art museum in the United States: American Gothic, Nighthawks, Sunday on La Grande Jatte, and the largest Impressionist collection outside Paris. Free Thursday evenings 5–8pm for Illinois residents. Closed Tuesdays and Wednesdays.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "CLOSED Tue & Wed · FREE Thu 5-8pm for IL residents",
+        "cost": "$$$",
+        "transitPlan": "Walking"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "art-on-the-mart",
+    "name": "Art on THE MART",
+    "status": "visited",
+    "favorite": true,
+    "type": "Public Art",
+    "neighborhood": "River North",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "Chicago Riverwalk at Merchandise Mart",
+    "rating": null,
+    "lat": 41.888,
+    "lng": -87.636,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": "21:00-22:00",
+      "thu": "21:00-22:00",
+      "fri": "21:00-22:00",
+      "sat": "21:00-22:00",
+      "sun": "21:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The largest permanent digital art projection in the world: 2.5 acres of imagery thrown across the Merchandise Mart's south façade by 34 projectors. Free, nightly, viewed from the Riverwalk. Runs seasonally after dark.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~9 min from Presidential Towers (0.5 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "au-cheval",
+    "name": "Au Cheval",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "800 W Randolph St",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6479,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-00:00",
+      "sat": "10:00-00:00",
+      "sun": "10:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Routinely called the best burger in America — a double with thick-cut bacon, dijonnaise, and an optional fried egg, served in a dim narrow diner. The wait is legendary; go at opening or expect two hours.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~7 min from Presidential Towers (0.4 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "bah-house-of-worship",
+    "name": "Baháʼí House of Worship",
+    "status": "visited",
+    "favorite": true,
+    "type": "Sacred Space",
+    "neighborhood": "Wilmette",
+    "budget": "Free",
+    "transportation": "L / CTA / Metra",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "100 Linden Ave, Wilmette",
+    "rating": null,
+    "lat": 42.0742,
+    "lng": -87.6842,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-22:00",
+      "tue": "06:00-22:00",
+      "wed": "06:00-22:00",
+      "thu": "06:00-22:00",
+      "fri": "06:00-22:00",
+      "sat": "06:00-22:00",
+      "sun": "06:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The oldest surviving Baháʼí temple in the world and the only one in North America — 40 years to build, finished 1953. Nine sides, nine entrances, nine gardens, open to people of every faith. The lacework dome is cast concrete embedded with crushed quartz so it glows white. Interior open daily; free.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "13.4 mi out — take the L or Metra (too far to walk or bike comfortably)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "bar-siena",
+    "name": "Bar Siena",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "832 W Randolph St",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6489,
+    "photo": "",
+    "hours": {
+      "mon": "16:00-22:00",
+      "tue": "16:00-22:00",
+      "wed": "16:00-22:00",
+      "thu": "16:00-23:00",
+      "fri": "11:30-00:00",
+      "sat": "10:00-00:00",
+      "sun": "10:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Big, loud, handsome Italian on Restaurant Row — wood-fired pizza, arancini, a patio built for people-watching along Randolph.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~8 min from Presidential Towers (0.4 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "broadway-armory-park",
+    "name": "Broadway Armory Park",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "Edgewater",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "5917 N Broadway",
+    "rating": null,
+    "lat": 41.9906,
+    "lng": -87.6595,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-22:00",
+      "tue": "07:00-22:00",
+      "wed": "07:00-22:00",
+      "thu": "07:00-22:00",
+      "fri": "07:00-22:00",
+      "sat": "08:00-20:00",
+      "sun": "09:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A 1929 National Guard armory turned into one of the largest indoor park facilities in the country — 100,000 square feet under a vast clear-span drill-hall roof. During WWII it trained troops; now it's an ice rink, pool and gym inside a fortress.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~47 min from Presidential Towers (7.5 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "br-chicago",
+    "name": "Brü Chicago",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1101 W Randolph St",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6459,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-16:00",
+      "tue": "07:00-16:00",
+      "wed": "07:00-16:00",
+      "thu": "07:00-16:00",
+      "fri": "07:00-16:00",
+      "sat": "08:00-17:00",
+      "sun": "08:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Neighborhood coffee bar on the west end of Randolph — good espresso, pastries, and a place to sit that isn't a chain. Daytime only.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~5 min from Presidential Towers (0.3 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "buckingham-fountain",
+    "name": "Buckingham Fountain",
+    "status": "visited",
+    "favorite": true,
+    "type": "Landmark",
+    "neighborhood": "Grant Park",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "301 E Columbus Dr",
+    "rating": null,
+    "lat": 41.8758,
+    "lng": -87.6189,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-23:00",
+      "tue": "08:00-23:00",
+      "wed": "08:00-23:00",
+      "thu": "08:00-23:00",
+      "fri": "08:00-23:00",
+      "sat": "08:00-23:00",
+      "sun": "08:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "One of the largest fountains in the world, gifted to the city in 1927. Designed after Latona's Basin at Versailles but twice the size, its four seahorse pairs represent the four states bordering Lake Michigan. Major water display every hour on the hour for 20 minutes; after dusk it adds a light and music show.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~24 min from Presidential Towers (1.2 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-architecture-center",
+    "name": "Chicago Architecture Center",
+    "status": "visited",
+    "favorite": true,
+    "type": "Museum",
+    "neighborhood": "The Loop",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "111 E Wacker Dr",
+    "rating": null,
+    "lat": 41.8877,
+    "lng": -87.6234,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Home to the Chicago Model — a 4,000-square-foot scale model of the entire city with over 400 buildings, lit by a narrated light show. The best possible primer for understanding what you're looking at when you walk the Loop.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~19 min from Presidential Towers (1.0 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-board-of-trade-building",
+    "name": "Chicago Board of Trade Building",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "141 W Jackson Blvd",
+    "rating": null,
+    "lat": 41.8777,
+    "lng": -87.6325,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "1930 Art Deco masterpiece capping the LaSalle Street canyon, topped by a three-story aluminum Ceres — goddess of grain — deliberately left faceless because the sculptor assumed no building would ever be tall enough to see her up close. The lobby is a cathedral of black marble and nickel.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~11 min from Presidential Towers (0.6 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-cultural-center",
+    "name": "Chicago Cultural Center",
+    "status": "visited",
+    "favorite": true,
+    "type": "Museum",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "78 E Washington St",
+    "rating": 4.0,
+    "lat": 41.8837,
+    "lng": -87.6248,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The People's Palace — free, with the largest Tiffany stained-glass dome in the world and rotating exhibitions. Also the meeting point for the free Chicago Greeter tours.",
+      "gamePlan": {
+        "bestTime": "A weekday at lunch or a weekend.",
+        "recurringEvents": "Free exhibitions and events year-round; InstaGreeter walks Fri–Sun 11:30am.",
+        "cost": "Free",
+        "transitPlan": "15-min walk east on Madison to 77 E Randolph."
+      },
+      "lookingForwardTo": "Standing under the Tiffany dome."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-french-market",
+    "name": "Chicago French Market",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "131 N Clinton St",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6398,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-19:00",
+      "tue": "07:00-19:00",
+      "wed": "07:00-19:00",
+      "thu": "07:00-19:00",
+      "fri": "07:00-19:00",
+      "sat": "08:00-17:00",
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "European-style indoor market under the Ogilvie tracks — 30-odd vendors doing oysters, crêpes, Vietnamese, cheese, gelato. The single best rainy-day lunch within walking distance of the West Loop. Closed Sundays.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~3 min from Presidential Towers (0.1 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-greeter-walking-tour",
+    "name": "Chicago Greeter Walking Tour",
+    "status": "visited",
+    "favorite": true,
+    "type": "Attraction",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "78 E Washington St",
+    "rating": null,
+    "lat": 41.8837,
+    "lng": -87.6248,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": "10:00-16:00",
+      "sat": "10:00-16:00",
+      "sun": "10:00-16:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A free, personalized 2–4 hour walk with a local volunteer who picks a neighborhood with you — no tipping allowed, by policy. Register 10 business days ahead; the drop-in InstaGreeter version runs Fri/Sat/Sun from the Cultural Center.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~16 min from Presidential Towers (0.8 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-history-museum",
+    "name": "Chicago History Museum",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Lincoln Park",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1601 N Clark St",
+    "rating": null,
+    "lat": 41.9114,
+    "lng": -87.6316,
+    "photo": "",
+    "hours": {
+      "mon": "09:30-16:30",
+      "tue": "09:30-16:30",
+      "wed": "09:30-16:30",
+      "thu": "09:30-16:30",
+      "fri": "09:30-16:30",
+      "sat": "09:30-16:30",
+      "sun": "12:00-16:30"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The full arc of Chicago history — the Fire, the 1893 World's Fair, the civil rights movement — plus the Facing Freedom in America exhibition. Free for Illinois residents on select days.",
+      "gamePlan": {
+        "bestTime": "A free-day Sunday or a holiday like July 4th.",
+        "recurringEvents": "Civic Season programming and America 250 events through the summer.",
+        "cost": "$$",
+        "transitPlan": "Brown Line to Sedgwick, then a walk into Lincoln Park."
+      },
+      "lookingForwardTo": "The updated Facing Freedom in America exhibition."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-riverwalk",
+    "name": "Chicago Riverwalk",
+    "status": "visited",
+    "favorite": true,
+    "type": "Park & Garden",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "Chicago Riverwalk, Wacker Dr",
+    "rating": null,
+    "lat": 41.8878,
+    "lng": -87.627,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Chicago's second lakefront — 1.25 miles of waterfront bars, kayaks, architecture, and public art tucked under Wacker Drive. One of the best places to be downtown on a warm evening.",
+      "gamePlan": {
+        "bestTime": "Weekday evening after work, around 6–7pm.",
+        "recurringEvents": "Art on the MART projects onto the Merchandise Mart nightly around 9pm all summer.",
+        "cost": "Free",
+        "transitPlan": "10-min walk east on Madison from PT."
+      },
+      "lookingForwardTo": "Walking the full stretch to the floating gardens near Franklin."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-sports-museum",
+    "name": "Chicago Sports Museum",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Magnificent Mile",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "835 N Michigan Ave, Level 7",
+    "rating": 3.5,
+    "lat": 41.8976,
+    "lng": -87.6244,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-21:00",
+      "tue": "11:00-21:00",
+      "wed": "11:00-21:00",
+      "thu": "11:00-21:00",
+      "fri": "11:00-22:00",
+      "sat": "10:00-22:00",
+      "sun": "10:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Interactive shrine to Chicago sports on the seventh floor of Water Tower Place — Jordan, Ditka, Sosa, Banks. Test your reaction time against a Cubs fastball. Best paired with the Skydeck-style views from the same building.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walking"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-water-taxi",
+    "name": "Chicago Water Taxi",
+    "status": "visited",
+    "favorite": true,
+    "type": "Attraction",
+    "neighborhood": "The Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "Michigan Ave & Wacker Dr dock",
+    "rating": null,
+    "lat": 41.8878,
+    "lng": -87.627,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-19:45",
+      "tue": "07:00-19:45",
+      "wed": "07:00-19:45",
+      "thu": "07:00-19:45",
+      "fri": "07:00-19:45",
+      "sat": "10:00-19:45",
+      "sun": "10:00-19:45"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Commuter boats that double as the cheapest architecture cruise in Chicago — roughly $6–10 to ride from Michigan Avenue up the river to Chinatown, passing every landmark on the water. Card only, no cash on board.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~16 min from Presidential Towers (0.8 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chicago-womens-park-and-gardens",
+    "name": "Chicago Women's Park and Gardens",
+    "status": "visited",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "Prairie District",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1801 S Indiana Ave",
+    "rating": null,
+    "lat": 41.8577,
+    "lng": -87.6216,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-21:00",
+      "tue": "06:00-21:00",
+      "wed": "06:00-21:00",
+      "thu": "06:00-21:00",
+      "fri": "06:00-21:00",
+      "sat": "06:00-21:00",
+      "sun": "06:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A formal garden in the Prairie Avenue historic district honoring Chicago women, with a bronze of Jane Addams by Louise Bourgeois and the 1836 Clarke House — the oldest building in Chicago — on its grounds.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~39 min from Presidential Towers (2.0 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "chinatown",
+    "name": "Chinatown",
+    "status": "visited",
+    "favorite": true,
+    "type": "Neighborhood",
+    "neighborhood": "Chinatown",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "S Wentworth Ave & W Cermak Rd",
+    "rating": null,
+    "lat": 41.8527,
+    "lng": -87.632,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-23:00",
+      "sat": "10:00-23:00",
+      "sun": "10:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "One of the most vibrant Chinatowns in the country — Chinatown Square, the Nine Dragon Wall, dim sum, bubble tea, and the riverfront at Ping Tom Park.",
+      "gamePlan": {
+        "bestTime": "Weekend lunch for dim sum.",
+        "recurringEvents": "Chinatown Summer Fair in late July with lion dances and street food.",
+        "cost": "$",
+        "transitPlan": "Red Line to Cermak-Chinatown, or Divvy south along the river."
+      },
+      "lookingForwardTo": "Scallion pancakes and a walk over to Ping Tom Park."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "cloud-gate-the-bean",
+    "name": "Cloud Gate (The Bean)",
+    "status": "visited",
+    "favorite": true,
+    "type": "Public Art",
+    "neighborhood": "Millennium Park",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "201 E Randolph St",
+    "rating": null,
+    "lat": 41.8827,
+    "lng": -87.6233,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Anish Kapoor's 110-ton seamless steel ellipse, inspired by liquid mercury — 168 stainless plates welded and polished until every seam vanished. Kapoor hated the nickname. Everyone uses it anyway.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~18 min from Presidential Towers (0.9 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "cruz-blanca-brewery-and-taquer-a",
+    "name": "Cruz Blanca Brewery & Taquería",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "904 W Randolph St",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6497,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "11:30-22:00",
+      "wed": "11:30-22:00",
+      "thu": "11:30-22:00",
+      "fri": "11:30-23:00",
+      "sat": "11:00-23:00",
+      "sun": "11:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Rick Bayless's brewery and taquería — Oaxacan-inflected beer brewed on site, al pastor carved off a vertical trompo, and a courtyard that's one of the best warm-weather seats in the West Loop.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~9 min from Presidential Towers (0.5 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "depaul-university",
+    "name": "DePaul University",
+    "status": "visited",
+    "favorite": false,
+    "type": "University",
+    "neighborhood": "Lincoln Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "2400 N Sheffield Ave",
+    "rating": null,
+    "lat": 41.925,
+    "lng": -87.6553,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-21:00",
+      "tue": "08:00-21:00",
+      "wed": "08:00-21:00",
+      "thu": "08:00-21:00",
+      "fri": "08:00-21:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-18:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The largest Catholic university in the United States, founded 1898, with its Lincoln Park campus woven directly into the neighborhood streets — the El runs right through the middle of it.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~19 min from Presidential Towers (3.0 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "dearborn-station",
+    "name": "Dearborn Station",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "Printers Row",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "47 W Polk St",
+    "rating": null,
+    "lat": 41.8721,
+    "lng": -87.6289,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The oldest surviving passenger terminal in Chicago (1885), Romanesque Revival in pink granite with a landmark clock tower. This is where the Santa Fe Super Chief unloaded Hollywood stars. Now shops and offices, but the head house and tower are intact.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~19 min from Presidential Towers (1.0 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "dusable-black-history-museum-and-education-center",
+    "name": "DuSable Black History Museum and Education Center",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Washington Park",
+    "budget": "$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "740 E 56th Pl",
+    "rating": null,
+    "lat": 41.7916,
+    "lng": -87.6172,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "12:00-17:00"
+    },
+    "notes": "FREE Wednesdays",
+    "scoutingReport": {
+      "why": "The oldest independent Black history museum in the United States, founded 1961 in Margaret Burroughs' living room. Named for Jean Baptiste Point DuSable, the Haitian-born trader who was Chicago's first non-Indigenous settler. Free on Wednesdays.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "FREE Wednesdays",
+        "cost": "$",
+        "transitPlan": "Divvy ~41 min from Presidential Towers (6.4 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "ed-debevics",
+    "name": "Ed Debevic's",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "Streeterville",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "159 E Ohio St",
+    "rating": null,
+    "lat": 41.8907,
+    "lng": -87.63,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-21:00",
+      "tue": "11:00-21:00",
+      "wed": "11:00-21:00",
+      "thu": "11:00-21:00",
+      "fri": "11:00-22:00",
+      "sat": "11:00-22:00",
+      "sun": "11:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A deliberately obnoxious 1950s diner where the staff insult you as a service, dance on the counters, and throw straws at your table. Closed in 2015, mourned, and resurrected in 2021. Order a shake and take the abuse.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~15 min from Presidential Towers (0.8 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "epic-burger-evanston",
+    "name": "Epic Burger — Evanston",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "Evanston",
+    "budget": "$",
+    "transportation": "L / CTA / Metra",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1622 Sherman Ave, Evanston",
+    "rating": null,
+    "lat": 42.0479,
+    "lng": -87.6829,
+    "photo": "",
+    "hours": {
+      "mon": "10:30-21:00",
+      "tue": "10:30-21:00",
+      "wed": "10:30-21:00",
+      "thu": "10:30-21:00",
+      "fri": "10:30-22:00",
+      "sat": "10:30-22:00",
+      "sun": "10:30-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "'A more mindful burger' — antibiotic-free beef, nitrate-free bacon, cage-free eggs. The Sherman Avenue location is the natural refuel after walking Northwestern's lakefill.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "11.6 mi out — take the L or Metra (too far to walk or bike comfortably)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "frank-lloyd-wright-home-and-studio",
+    "name": "Frank Lloyd Wright Home and Studio",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "Oak Park",
+    "budget": "$$$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "951 Chicago Ave, Oak Park",
+    "rating": null,
+    "lat": 41.8945,
+    "lng": -87.7997,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-16:00",
+      "tue": "10:00-16:00",
+      "wed": "10:00-16:00",
+      "thu": "10:00-16:00",
+      "fri": "10:00-16:00",
+      "sat": "10:00-16:00",
+      "sun": "10:00-16:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Where Wright developed the Prairie style over 20 years of constant self-renovation, and the anchor of Oak Park's unmatched concentration of his early houses. Tours only — book ahead.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Divvy ~52 min from Presidential Towers (8.2 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "fulton-market-social",
+    "name": "Fulton Market Social",
+    "status": "visited",
+    "favorite": false,
+    "type": "Music & Festival",
+    "neighborhood": "Fulton Market",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "170 N Green St",
+    "rating": null,
+    "lat": 41.8871,
+    "lng": -87.6522,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-00:00",
+      "sat": "10:00-00:00",
+      "sun": "10:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The Fulton Market Garden complex — outdoor courtyard, big screens, pickleball courts, full bar. Watched World Cup matches here in the open air; one of the better places in the city to watch anything with a crowd.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~12 min from Presidential Towers (0.6 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "garden-of-the-phoenix-osaka-garden",
+    "name": "Garden of the Phoenix (Osaka Garden)",
+    "status": "visited",
+    "favorite": true,
+    "type": "Park & Garden",
+    "neighborhood": "Hyde Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "Wooded Island, Jackson Park",
+    "rating": null,
+    "lat": 41.792,
+    "lng": -87.5806,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-21:00",
+      "tue": "06:00-21:00",
+      "wed": "06:00-21:00",
+      "thu": "06:00-21:00",
+      "fri": "06:00-21:00",
+      "sat": "06:00-21:00",
+      "sun": "06:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Japan's gift to the 1893 fair, rebuilt and re-gifted repeatedly across 130 years of war and reconciliation — burned by arson in 1946, restored in 1981, replanted with 120 cherry trees in 2013. Yoko Ono's SKYLANDING, her only permanent public artwork in the Americas, sits at its heart: twelve steel lotus petals rising from the ground.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~44 min from Presidential Towers (7.0 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "garfield-park-conservatory",
+    "name": "Garfield Park Conservatory",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "East Garfield Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "300 N Central Park Ave",
+    "rating": null,
+    "lat": 41.8863,
+    "lng": -87.7172,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00"
+    },
+    "notes": "CLOSED Mon & Tue",
+    "scoutingReport": {
+      "why": "One of the largest conservatories in the country — two acres of tropical plants across eight glass rooms. Dramatically undervisited for how spectacular it is.",
+      "gamePlan": {
+        "bestTime": "Wednesday, the one night it's open until 8pm — great after work.",
+        "recurringEvents": "Thu–Sun 10am–5pm, Wed until 8pm.",
+        "cost": "Free",
+        "transitPlan": "Green Line to Conservatory-Central Park Drive."
+      },
+      "lookingForwardTo": "The cavernous, jungle-like Fern Room."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "garfield-park-golden-dome-field-house",
+    "name": "Garfield Park Golden Dome Field House",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "East Garfield Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "100 N Central Park Ave",
+    "rating": null,
+    "lat": 41.885,
+    "lng": -87.7172,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-21:00",
+      "tue": "09:00-21:00",
+      "wed": "09:00-21:00",
+      "thu": "09:00-21:00",
+      "fri": "09:00-21:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A 1928 Spanish Revival field house with a gilded dome that looks like it was airlifted from Seville — one of the most spectacular and least-visited buildings on the West Side.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~25 min from Presidential Towers (3.9 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "goddess-and-the-baker",
+    "name": "Goddess and the Baker",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "The Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "33 S Wabash Ave",
+    "rating": null,
+    "lat": 41.8829,
+    "lng": -87.6288,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-16:00",
+      "tue": "07:00-16:00",
+      "wed": "07:00-16:00",
+      "thu": "07:00-16:00",
+      "fri": "07:00-16:00",
+      "sat": "08:00-16:00",
+      "sun": "08:00-16:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Loop bakery-café known for absurdly photogenic cakes, strong coffee and avocado toast. Daytime only — a good first stop before the museums open.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~12 min from Presidential Towers (0.6 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "grant-park-music-festival",
+    "name": "Grant Park Music Festival",
+    "status": "visited",
+    "favorite": true,
+    "type": "Music & Festival",
+    "neighborhood": "Millennium Park",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "201 E Randolph St, Pritzker Pavilion",
+    "rating": null,
+    "lat": 41.8826,
+    "lng": -87.6216,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": "18:30-21:00",
+      "thu": null,
+      "fri": "18:30-21:00",
+      "sat": "19:30-22:00",
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The only free outdoor classical music festival of its kind in the United States, running every summer since 1935. The Grant Park Orchestra and Chorus perform under Frank Gehry's steel ribbons; the lawn is free and you can bring your own wine.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walking"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "green-door-tavern",
+    "name": "Green Door Tavern",
+    "status": "visited",
+    "favorite": true,
+    "type": "Food & Drink",
+    "neighborhood": "River North",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "678 N Orleans St",
+    "rating": null,
+    "lat": 41.8926,
+    "lng": -87.6363,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-00:00",
+      "fri": "11:00-01:00",
+      "sat": "11:00-01:00",
+      "sun": "11:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "In the oldest wooden building in downtown Chicago (1872, built right after the Great Fire — which is why wood construction was banned the following year). It visibly leans. The basement was a Prohibition speakeasy; the green door itself was the signal.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~14 min from Presidential Towers (0.7 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "grosse-point-lighthouse",
+    "name": "Grosse Point Lighthouse",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "Evanston",
+    "budget": "$",
+    "transportation": "L / CTA / Metra",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "2601 Sheridan Rd, Evanston",
+    "rating": null,
+    "lat": 42.0656,
+    "lng": -87.6831,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": "13:00-16:00",
+      "sun": "13:00-16:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Built in 1873 after the Lady Elgin disaster, this National Historic Landmark still holds its original second-order Fresnel lens — one of very few left in place in the U.S. 141 steps to the top. Tower tours run weekend afternoons in summer only.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "12.8 mi out — take the L or Metra (too far to walk or bike comfortably)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "handh-bagels",
+    "name": "H&H Bagels",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "River North",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "29 E Ohio St",
+    "rating": null,
+    "lat": 41.8926,
+    "lng": -87.6255,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-15:00",
+      "tue": "07:00-15:00",
+      "wed": "07:00-15:00",
+      "thu": "07:00-15:00",
+      "fri": "07:00-15:00",
+      "sat": "07:00-16:00",
+      "sun": "07:00-16:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The legendary Upper West Side bagel, kettle-boiled and baked, brought to River North. Get it with scallion cream cheese and lox. Mornings only.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~20 min from Presidential Towers (1.1 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "harolds-chicken-shack",
+    "name": "Harold's Chicken Shack",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "Hyde Park",
+    "budget": "$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1208 E 53rd St",
+    "rating": null,
+    "lat": 41.8016,
+    "lng": -87.5896,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-00:00",
+      "sat": "11:00-00:00",
+      "sun": "11:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The Fried Chicken King, founded 1950 by Harold Pierce — a South Side institution and cultural touchstone referenced constantly in Chicago hip-hop. Fried to order in beef tallow, sauce on top, white bread underneath to soak it up.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Divvy ~39 min from Presidential Towers (6.2 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "historic-route-66-begin-sign",
+    "name": "Historic Route 66 Begin Sign",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "Adams St & Michigan Ave",
+    "rating": null,
+    "lat": 41.8794,
+    "lng": -87.6244,
+    "photo": "",
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Mile zero of the Mother Road. The eastern terminus of Route 66 sits on Adams just off Michigan Ave — 2,448 miles from Santa Monica Pier. The 'Begin' sign is the single most photographed street sign in Chicago.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~17 min from Presidential Towers (0.9 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "humboldt-park",
+    "name": "Humboldt Park",
+    "status": "visited",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "Humboldt Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1400 N Sacramento Ave",
+    "rating": null,
+    "lat": 41.9024,
+    "lng": -87.7015,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "207 acres by Jens Jensen, who invented the prairie-river idiom here — a naturalistic lagoon, a boathouse pavilion, and an inland 'beach.' The heart of Chicago's Puerto Rican community, framed by the two 45-ton steel flags on Division Street.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~21 min from Presidential Towers (3.4 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "illinois-institute-of-technology",
+    "name": "Illinois Institute of Technology",
+    "status": "visited",
+    "favorite": true,
+    "type": "University",
+    "neighborhood": "Bronzeville",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "10 W 35th St",
+    "rating": null,
+    "lat": 41.8349,
+    "lng": -87.627,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Mies van der Rohe's modernist campus — one of the most architecturally significant college campuses in the world — plus the OMA-designed McCormick Tribune Campus Center with the L running through a steel tube overhead.",
+      "gamePlan": {
+        "bestTime": "A weekday when the campus is active.",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Green Line to 35th–Bronzeville–IIT, right at campus."
+      },
+      "lookingForwardTo": "Seeing Crown Hall and the campus center up close."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "institute-for-the-study-of-ancient-cultures-museum-isac",
+    "name": "Institute for the Study of Ancient Cultures Museum (ISAC)",
+    "status": "visited",
+    "favorite": true,
+    "type": "Museum",
+    "neighborhood": "Hyde Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1155 E 58th St",
+    "rating": null,
+    "lat": 41.7896,
+    "lng": -87.5977,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "10:00-17:00",
+      "wed": "10:00-20:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "12:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Formerly the Oriental Institute. UChicago's own excavations fill it: a 40-ton winged bull from Khorsabad, a 17-foot statue of King Tut, Persepolis reliefs. Free, world-class, and almost always empty. Wednesday until 8pm.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~43 min from Presidential Towers (6.8 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "jackson-park",
+    "name": "Jackson Park",
+    "status": "visited",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "Hyde Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "6401 S Stony Island Ave",
+    "rating": null,
+    "lat": 41.7833,
+    "lng": -87.58,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The site of the 1893 World's Columbian Exposition — the White City that introduced the Ferris wheel, the moving walkway, and Cracker Jack to the world. Olmsted designed it. Almost everything was temporary staff and burned; what remains is the lagoons, the Wooded Island, and the Museum of Science and Industry.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~48 min from Presidential Towers (7.6 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "jane-addams-hull-house-museum",
+    "name": "Jane Addams Hull-House Museum",
+    "status": "want-to-go",
+    "favorite": true,
+    "type": "Museum",
+    "neighborhood": "Near West Side",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "800 S Halsted St",
+    "rating": null,
+    "lat": 41.872,
+    "lng": -87.647,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "10:00-16:50",
+      "wed": "10:00-16:50",
+      "thu": "10:00-16:50",
+      "fri": "10:00-16:50",
+      "sat": "10:00-16:50",
+      "sun": null
+    },
+    "notes": "CLOSED Sun & Mon · closes 4:50pm",
+    "scoutingReport": {
+      "why": "The original 1856 mansion where Jane Addams founded the American settlement house movement in 1889 — birthplace of modern social work, and the base from which she won the 1931 Nobel Peace Prize. Free. Closed Sundays and Mondays, and closes at 4:50pm.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "CLOSED Sun & Mon · closes 4:50pm",
+        "cost": "Free",
+        "transitPlan": "Walk ~15 min from Presidential Towers (0.8 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "jenis-splendid-ice-creams",
+    "name": "Jeni's Splendid Ice Creams",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "828 W Randolph St",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6486,
+    "photo": "",
+    "hours": {
+      "mon": "12:00-22:00",
+      "tue": "12:00-22:00",
+      "wed": "12:00-22:00",
+      "thu": "12:00-22:00",
+      "fri": "12:00-23:00",
+      "sat": "12:00-23:00",
+      "sun": "12:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Columbus-born, grass-fed dairy, wildly inventive flavors — Brambleberry Crisp, Brown Butter Almond Brittle, Gooey Butter Cake. The Randolph shop is the reward at the end of a West Loop walk.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~8 min from Presidential Towers (0.4 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "jibarito-puerto-rican-sandwich",
+    "name": "Jibarito (Puerto Rican sandwich)",
+    "status": "visited",
+    "favorite": true,
+    "type": "Food & Drink",
+    "neighborhood": "Humboldt Park",
+    "budget": "$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "Division St, Paseo Boricua",
+    "rating": null,
+    "lat": 41.9024,
+    "lng": -87.704,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-22:00",
+      "tue": "11:00-22:00",
+      "wed": "11:00-22:00",
+      "thu": "11:00-22:00",
+      "fri": "11:00-23:00",
+      "sat": "11:00-23:00",
+      "sun": "11:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Invented in Chicago in 1996 at Borinquen Restaurant: a sandwich that replaces bread entirely with two flattened, fried green plantains. Steak, garlic, mayo, lettuce, tomato. Chicago's greatest food invention after deep dish — and it happened on Division Street.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Divvy ~22 min from Presidential Towers (3.5 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "joe-and-rika-mansueto-library",
+    "name": "Joe and Rika Mansueto Library",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "Hyde Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1100 E 57th St",
+    "rating": null,
+    "lat": 41.7924,
+    "lng": -87.5997,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-19:00",
+      "tue": "09:00-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A luminous elliptical glass dome on UChicago's quad, hiding a 50-foot-deep automated vault below ground where robotic cranes retrieve 3.5 million volumes. Reading under that dome feels like studying inside a soap bubble.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~42 min from Presidential Towers (6.6 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "kayak-the-chicago-river",
+    "name": "Kayak the Chicago River",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Attraction",
+    "neighborhood": "The Loop",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "435 E Chicago Riverwalk",
+    "rating": null,
+    "lat": 41.8885,
+    "lng": -87.6215,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-19:00",
+      "tue": "09:00-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-20:00",
+      "sat": "08:00-20:00",
+      "sun": "08:00-20:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Paddling the main branch at water level, looking straight up the canyon walls of the skyline with boats and bridges overhead. Urban Kayaks launches directly off the Riverwalk, May through October.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~21 min from Presidential Towers (1.1 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "lakefront-trail-hyde-park-to-navy-pier-by-bike",
+    "name": "Lakefront Trail — Hyde Park to Navy Pier by bike",
+    "status": "visited",
+    "favorite": true,
+    "type": "Beach & Lakefront",
+    "neighborhood": "Lakefront",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "Lakefront Trail",
+    "rating": null,
+    "lat": 41.85,
+    "lng": -87.61,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "18.5 miles of car-free path along Lake Michigan, separated into bike and pedestrian lanes since 2018. The Hyde Park → Navy Pier run north is the definitive version: Promontory Point, the Museum Campus, the harbors, and the skyline rotating slowly on your left the whole way.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~54 min from Presidential Towers (2.8 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "lakeshore-east-park",
+    "name": "Lakeshore East Park",
+    "status": "visited",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "Lakeshore East",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "450 E Benton Pl",
+    "rating": null,
+    "lat": 41.8878,
+    "lng": -87.6178,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A hidden six-acre park sunk below street level inside the canyon of high-rises east of Michigan Avenue — the 'lower level' Chicago most visitors never find, with dog runs, fountains and playgrounds under the towers.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~24 min from Presidential Towers (1.3 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "lincoln-park-conservatory",
+    "name": "Lincoln Park Conservatory",
+    "status": "visited",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "Lincoln Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "2391 N Stockton Dr",
+    "rating": null,
+    "lat": 41.9242,
+    "lng": -87.6353,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "An 1895 Victorian glass house of four rooms — Palm, Fern, Orchid, Show — where the Fern Room was designed to feel like prehistoric Illinois before the glaciers. Free. A humid, green, 75-degree escape three minutes from the zoo.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Bus,L"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "lincoln-park-zoo",
+    "name": "Lincoln Park Zoo",
+    "status": "visited",
+    "favorite": true,
+    "type": "Park & Garden",
+    "neighborhood": "Lincoln Park",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "2001 N Clark St",
+    "rating": null,
+    "lat": 41.9211,
+    "lng": -87.6337,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-18:30",
+      "sun": "10:00-18:30"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "One of the only free zoos in the country, right in the middle of the city — 49 acres of animals and an accredited botanical garden.",
+      "gamePlan": {
+        "bestTime": "Weekday or weekend morning when the animals are active.",
+        "recurringEvents": "Summer hours run late; buildings close 6:30pm on weekends.",
+        "cost": "Free",
+        "transitPlan": "Brown Line to Armitage, then a 20-min walk east into the park."
+      },
+      "lookingForwardTo": "The Regenstein African Journey and a slow loop of the whole place on a cool morning."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "londonhouse-rooftop",
+    "name": "LondonHouse Rooftop",
+    "status": "visited",
+    "favorite": true,
+    "type": "Rooftop & Bar",
+    "neighborhood": "The Loop",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "85 E Wacker Dr",
+    "rating": null,
+    "lat": 41.8875,
+    "lng": -87.6249,
+    "photo": "",
+    "hours": {
+      "mon": "15:00-00:00",
+      "tue": "15:00-00:00",
+      "wed": "15:00-00:00",
+      "thu": "15:00-01:00",
+      "fri": "15:00-01:00",
+      "sat": "11:00-01:00",
+      "sun": "11:00-00:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A tri-level rooftop at Michigan Avenue and the river, eye-level with the Wrigley Building clock. The summer 'Luminescence' LED floral installation lights it up after dark.",
+      "gamePlan": {
+        "bestTime": "Any evening after 7pm when the city lights up.",
+        "recurringEvents": "No cover — buy a drink.",
+        "cost": "$$$",
+        "transitPlan": "15-min walk east to 85 E Wacker Dr."
+      },
+      "lookingForwardTo": "The Luminescence installation with the river below and the Wrigley Building right there."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "lou-mitchells",
+    "name": "Lou Mitchell's",
+    "status": "visited",
+    "favorite": true,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "565 W Jackson Blvd",
+    "rating": null,
+    "lat": 41.8783,
+    "lng": -87.6395,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-15:00",
+      "tue": "07:00-15:00",
+      "wed": "07:00-15:00",
+      "thu": "07:00-15:00",
+      "fri": "07:00-15:00",
+      "sat": "07:00-15:00",
+      "sun": "07:00-15:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Open since 1923 at the start of Route 66, the traditional first stop for travelers heading west. They still hand free Milk Duds to women and children in line and serve double-yolk omelettes in cast iron. Breakfast only — closes mid-afternoon.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~6 min from Presidential Towers (0.3 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "loyola-university-chicago",
+    "name": "Loyola University Chicago",
+    "status": "visited",
+    "favorite": false,
+    "type": "University",
+    "neighborhood": "Rogers Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1032 W Sheridan Rd",
+    "rating": null,
+    "lat": 42.001,
+    "lng": -87.658,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-21:00",
+      "tue": "08:00-21:00",
+      "wed": "08:00-21:00",
+      "thu": "08:00-21:00",
+      "fri": "08:00-21:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-18:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A Jesuit campus with the most spectacular setting of any school in Chicago — the lakefront runs along its entire eastern edge, and the Madonna della Strada Chapel sits right at the water in Art Deco limestone.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~52 min from Presidential Towers (8.2 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "mcdonalds-global-headquarters",
+    "name": "McDonald's Global Headquarters",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "West Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "110 N Carpenter St",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6534,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-20:00",
+      "tue": "06:00-20:00",
+      "wed": "06:00-20:00",
+      "thu": "06:00-20:00",
+      "fri": "06:00-20:00",
+      "sat": "07:00-20:00",
+      "sun": "07:00-20:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "McDonald's moved its world HQ from suburban Oak Brook into the West Loop in 2018, onto the site of Oprah's old Harpo Studios. The ground-floor restaurant rotates international menu items — McSpicy Paneer, Stroopwafel McFlurry — that you can't get anywhere else in America. Hamburger University is upstairs.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~12 min from Presidential Towers (0.6 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "midway-plaisance",
+    "name": "Midway Plaisance",
+    "status": "visited",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "Hyde Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "S Midway Plaisance",
+    "rating": null,
+    "lat": 41.7885,
+    "lng": -87.596,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The mile-long sunken green corridor connecting Washington and Jackson Parks — and the origin of the word 'midway.' In 1893 this strip held the fair's amusement zone; every carnival midway since is named after it.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~44 min from Presidential Towers (6.9 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "millennium-park-summer-film-series",
+    "name": "Millennium Park Summer Film Series",
+    "status": "visited",
+    "favorite": true,
+    "type": "Music & Festival",
+    "neighborhood": "Millennium Park",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "201 E Randolph St, Pritzker Pavilion",
+    "rating": null,
+    "lat": 41.8826,
+    "lng": -87.6216,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "18:30-21:30",
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Free movies on a 40-foot LED screen every Tuesday at 6:30pm all summer. Saw Hamilton here on the lawn — the whole crowd singing along under the skyline is the single most Chicago-summer thing that exists.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walking"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "millennium-park-summer-music-series",
+    "name": "Millennium Park Summer Music Series",
+    "status": "visited",
+    "favorite": false,
+    "type": "Music & Festival",
+    "neighborhood": "Millennium Park",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "201 E Randolph St, Pritzker Pavilion",
+    "rating": null,
+    "lat": 41.8826,
+    "lng": -87.6216,
+    "photo": "",
+    "hours": {
+      "mon": "18:30-21:00",
+      "tue": null,
+      "wed": null,
+      "thu": "18:30-21:00",
+      "fri": null,
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Free Monday and Thursday evening concerts at Pritzker Pavilion — indie, global, jazz, soul. Bring a blanket and food; the sound system Gehry designed makes the whole lawn feel like the front row.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walking"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "milton-lee-olive-park",
+    "name": "Milton Lee Olive Park",
+    "status": "visited",
+    "favorite": true,
+    "type": "Park & Garden",
+    "neighborhood": "Streeterville",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "500 E Ohio St",
+    "rating": null,
+    "lat": 41.8955,
+    "lng": -87.61,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A quiet peninsula just north of Navy Pier with one of the best unobstructed downtown skyline views in the city — surrounded by water on three sides.",
+      "gamePlan": {
+        "bestTime": "Late evening around sunset. Can be windy at the tip.",
+        "recurringEvents": "Next to Navy Pier fireworks on Wednesday and Saturday nights.",
+        "cost": "Free",
+        "transitPlan": "25-min Divvy north along the lakefront from PT."
+      },
+      "lookingForwardTo": "Standing at the very tip of the peninsula with the full skyline in front of me."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "monadnock-building",
+    "name": "Monadnock Building",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "53 W Jackson Blvd",
+    "rating": null,
+    "lat": 41.8787,
+    "lng": -87.6295,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Two buildings in one and the hinge point of architectural history: the 1891 north half is the tallest load-bearing masonry building ever built (walls six feet thick at the base), while the 1893 south half is steel-framed. You can walk from one era to the other in a single corridor.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~13 min from Presidential Towers (0.7 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "money-museum-federal-reserve-bank-of-chicago",
+    "name": "Money Museum — Federal Reserve Bank of Chicago",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "230 S LaSalle St",
+    "rating": null,
+    "lat": 41.8785,
+    "lng": -87.633,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-16:00",
+      "tue": "09:00-16:00",
+      "wed": "09:00-16:00",
+      "thu": "09:00-16:00",
+      "fri": "09:00-16:00",
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Free museum inside the Chicago Fed where you can lift a briefcase holding one million dollars in cash, see a cube of shredded currency, and take home a bag of shredded money. Bring photo ID — it's a working central bank.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~10 min from Presidential Towers (0.5 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "museum-of-contemporary-art-chicago",
+    "name": "Museum of Contemporary Art Chicago",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Streeterville",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "220 E Chicago Ave",
+    "rating": null,
+    "lat": 41.8969,
+    "lng": -87.6217,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "10:00-21:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00"
+    },
+    "notes": "FREE Tue 5-9pm for IL residents",
+    "scoutingReport": {
+      "why": "One of the largest contemporary art museums in the world. Free Tuesday evenings 5–9pm for Illinois residents, and pay-what-you-can otherwise. The rooftop terrace and the staircase itself are worth the trip.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "FREE Tue 5-9pm for IL residents",
+        "cost": "$$",
+        "transitPlan": "Walk ~27 min from Presidential Towers (1.4 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "museum-of-contemporary-photography",
+    "name": "Museum of Contemporary Photography",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "South Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "600 S Michigan Ave",
+    "rating": null,
+    "lat": 41.8744,
+    "lng": -87.6259,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-20:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The only museum in the Midwest devoted exclusively to photography, run free of charge by Columbia College. Small, sharp, always-changing shows. Thursday hours run until 8pm.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~19 min from Presidential Towers (1.0 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "national-museum-of-puerto-rican-arts-and-culture",
+    "name": "National Museum of Puerto Rican Arts & Culture",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Humboldt Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "3015 W Division St",
+    "rating": null,
+    "lat": 41.9024,
+    "lng": -87.7015,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The only freestanding museum in the U.S. dedicated to Puerto Rican arts and culture, housed in a former stable in Humboldt Park. Free admission. Sits between the two giant steel Puerto Rican flags that arch over Division Street.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~21 min from Presidential Towers (3.4 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "native-american-exhibit-marquette-building",
+    "name": "Native American Exhibit — Marquette Building",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "140 S Dearborn St, 2nd floor",
+    "rating": null,
+    "lat": 41.8797,
+    "lng": -87.6295,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A small, free, permanent exhibit above the Marquette lobby run by the MacArthur Foundation, reframing the building's Marquette mosaics from Native perspectives — with artifacts and commentary on the Illinois Confederacy the mosaics romanticize.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~12 min from Presidential Towers (0.6 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "navy-pier",
+    "name": "Navy Pier",
+    "status": "visited",
+    "favorite": true,
+    "type": "Attraction",
+    "neighborhood": "Streeterville",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "600 E Grand Ave",
+    "rating": null,
+    "lat": 41.8917,
+    "lng": -87.6086,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-00:00",
+      "sat": "10:00-00:00",
+      "sun": "10:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The Centennial Wheel, Offshore Rooftop (the world's largest rooftop bar), the Chicago Shakespeare Theater, and the free summer fireworks. Touristy in the best way.",
+      "gamePlan": {
+        "bestTime": "Late afternoon into sunset on a weekday.",
+        "recurringEvents": "Free fireworks every Wednesday 9pm and Saturday 10pm, May–September.",
+        "cost": "$$",
+        "transitPlan": "25-min Divvy east along the Riverwalk path, or #29 bus from State St."
+      },
+      "lookingForwardTo": "Catching the fireworks from the Offshore Rooftop."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "navy-pier-fireworks",
+    "name": "Navy Pier Fireworks",
+    "status": "visited",
+    "favorite": true,
+    "type": "Attraction",
+    "neighborhood": "Streeterville",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "600 E Grand Ave",
+    "rating": null,
+    "lat": 41.8917,
+    "lng": -87.6086,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": "21:00-21:15",
+      "thu": null,
+      "fri": null,
+      "sat": "22:00-22:15",
+      "sun": null
+    },
+    "notes": "Wed 9pm & Sat 10pm ONLY",
+    "scoutingReport": {
+      "why": "Free fireworks over Lake Michigan every Wednesday at 9pm and Saturday at 10pm, Memorial Day through Labor Day, choreographed to music. Best watched from Ohio Street Beach or Olive Park rather than the crowded pier itself.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "Wed 9pm & Sat 10pm ONLY",
+        "cost": "Free",
+        "transitPlan": "L,Walking"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "northwestern-university",
+    "name": "Northwestern University",
+    "status": "visited",
+    "favorite": true,
+    "type": "University",
+    "neighborhood": "Evanston",
+    "budget": "Free",
+    "transportation": "L / CTA / Metra",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "633 Clark St, Evanston",
+    "rating": null,
+    "lat": 42.0565,
+    "lng": -87.6753,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-18:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Founded 1851, its campus extended onto 84 acres of landfill pushed into Lake Michigan in the 1960s — the Lakefill, where you get the best distant view of the Chicago skyline 12 miles south across open water. Evanston itself was created as its dry college town.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Metra"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "obama-presidential-center",
+    "name": "Obama Presidential Center",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Woodlawn",
+    "budget": "$$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "6001 S Stony Island Ave",
+    "rating": null,
+    "lat": 41.7896,
+    "lng": -87.587,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00"
+    },
+    "notes": "FREE Tue for IL residents",
+    "scoutingReport": {
+      "why": "Opened 2026 on 19 acres of Jackson Park. The 225-foot Museum Tower is now the tallest structure on the South Side, clad in stone carved with text. Campus, gardens, library branch and plaza are free; museum requires a timed ticket. Free for Illinois residents on Tuesdays.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "FREE Tue for IL residents",
+        "cost": "$$",
+        "transitPlan": "Divvy ~44 min from Presidential Towers (7.0 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "ohio-street-beach",
+    "name": "Ohio Street Beach",
+    "status": "visited",
+    "favorite": true,
+    "type": "Beach & Lakefront",
+    "neighborhood": "Streeterville",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "600 N Lake Shore Dr",
+    "rating": null,
+    "lat": 41.8927,
+    "lng": -87.6118,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "This is the closest beach to my apartment and the most urban beach on the list. It's tucked behind Milton Lee Olive Park and right by the iconic Navy Pier. Also it's apparently surprisingly shallow.",
+      "gamePlan": {
+        "bestTime": "This could easily be a weekday check off since it's close enough.",
+        "recurringEvents": "It's right by the Navy Pier for Wednesday and Saturday night fireworks.",
+        "cost": "Free",
+        "transitPlan": "Walk 50 minutes from PT"
+      },
+      "lookingForwardTo": "I could pair this up with Milton Lee Olive Park next door."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "old-town-art-fair",
+    "name": "Old Town Art Fair",
+    "status": "visited",
+    "favorite": false,
+    "type": "Music & Festival",
+    "neighborhood": "Old Town",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1763 N North Park Ave",
+    "rating": null,
+    "lat": 41.911,
+    "lng": -87.637,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null,
+      "sat": "10:00-19:00",
+      "sun": "10:00-18:00"
+    },
+    "notes": "Annual — June only",
+    "scoutingReport": {
+      "why": "Running since 1950, one of the oldest juried outdoor art fairs in the country — 250 artists in the leafy streets of Old Town's landmark district, with garden walks through private courtyards. Annual, second weekend of June.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "Annual — June only",
+        "cost": "$",
+        "transitPlan": "Walk ~38 min from Presidential Towers (2.0 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "paseo-boricua-puerto-rican-division-street",
+    "name": "Paseo Boricua / Puerto Rican Division Street",
+    "status": "visited",
+    "favorite": true,
+    "type": "Neighborhood",
+    "neighborhood": "Humboldt Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "W Division St, Western to California",
+    "rating": null,
+    "lat": 41.9024,
+    "lng": -87.704,
+    "photo": "",
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Half a mile of Division Street bracketed by two 59-foot, 45-ton steel Puerto Rican flags — the only monumental flags of their kind in the world. Declared a Puerto Rican cultural district; murals, jibaritos, and the Fiesta Boricua every summer.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~22 min from Presidential Towers (3.5 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "peggy-notebaert-nature-museum",
+    "name": "Peggy Notebaert Nature Museum",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Lincoln Park",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "2430 N Cannon Dr",
+    "rating": null,
+    "lat": 41.9214,
+    "lng": -87.632,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "notes": "FREE Thu for IL residents",
+    "scoutingReport": {
+      "why": "Home to the Judy Istock Butterfly Haven — a 2,700-square-foot greenhouse where 40 species of butterflies land on you. Free Thursdays for Illinois residents.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "FREE Thu for IL residents",
+        "cost": "$$",
+        "transitPlan": "L"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "pilsen-murals-and-16th-street-corridor",
+    "name": "Pilsen Murals & 16th Street Corridor",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Public Art",
+    "neighborhood": "Pilsen",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "W 16th St & S Blue Island Ave",
+    "rating": null,
+    "lat": 41.8577,
+    "lng": -87.66,
+    "photo": "",
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Two miles of continuous mural along the 16th Street rail embankment — the largest concentration of Mexican-American public art in the Midwest, layered over four decades. Free, all day, always.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~38 min from Presidential Towers (2.0 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "ping-tom-memorial-park",
+    "name": "Ping Tom Memorial Park",
+    "status": "visited",
+    "favorite": true,
+    "type": "Park & Garden",
+    "neighborhood": "Chinatown",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1700 S Wentworth Ave",
+    "rating": null,
+    "lat": 41.8517,
+    "lng": -87.6329,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A riverside park in Chinatown with a Chinese-inspired pavilion and skyline views. You can arrive by Water Taxi, which turns the trip itself into the experience.",
+      "gamePlan": {
+        "bestTime": "Weekend afternoon, paired with a Chinatown meal.",
+        "recurringEvents": "Water taxi stops at the park dock May–October.",
+        "cost": "Free",
+        "transitPlan": "20-min Divvy south along Canal St, or Red Line to Cermak-Chinatown."
+      },
+      "lookingForwardTo": "Arriving by water taxi and walking through the pavilion before heading into Chinatown for food."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "portillos",
+    "name": "Portillo's",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "River North",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "100 W Ontario St",
+    "rating": null,
+    "lat": 41.8926,
+    "lng": -87.6314,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-00:00",
+      "tue": "10:00-00:00",
+      "wed": "10:00-00:00",
+      "thu": "10:00-00:00",
+      "fri": "10:00-01:00",
+      "sat": "10:00-01:00",
+      "sun": "10:00-00:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Dick Portillo started in a 6x12 trailer with no running water in 1963. The Ontario Street flagship is a maze of Prohibition-era theming. Get the char-grilled dog, cheese fries, and a chocolate cake shake.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~16 min from Presidential Towers (0.8 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "prince-street-pizza",
+    "name": "Prince Street Pizza",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "River North",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "10 E Superior St",
+    "rating": null,
+    "lat": 41.8926,
+    "lng": -87.6289,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-01:00",
+      "sat": "11:00-01:00",
+      "sun": "11:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The Manhattan original's Chicago outpost, famous for the Spicy Spring — a thick square pan slice with cupped, charred pepperoni and a fiery vodka sauce. A deliberate New York counterpoint in deep-dish country.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~18 min from Presidential Towers (0.9 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "promontory-point",
+    "name": "Promontory Point",
+    "status": "want-to-go",
+    "favorite": true,
+    "type": "Park & Garden",
+    "neighborhood": "Hyde Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "5491 S Shore Dr",
+    "rating": null,
+    "lat": 41.7936,
+    "lng": -87.5766,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A limestone-terraced promontory in Hyde Park with the best unobstructed skyline view across the lake. Beloved by locals, unknown to visitors.",
+      "gamePlan": {
+        "bestTime": "Sunset. Bring something to sit on — the stone terraces are the seating.",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Metra Electric to 55th–56th–57th St, walk east into the park."
+      },
+      "lookingForwardTo": "The full downtown skyline across the water at golden hour."
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "rate-field",
+    "name": "Rate Field",
+    "status": "visited",
+    "favorite": false,
+    "type": "Sports",
+    "neighborhood": "Bridgeport",
+    "budget": "$$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "333 W 35th St",
+    "rating": null,
+    "lat": 41.8299,
+    "lng": -87.6338,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-22:00",
+      "sat": "09:00-22:00",
+      "sun": "09:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Home of the White Sox since 1991 (formerly Comiskey, then U.S. Cellular, then Guaranteed Rate). The last stadium built before the retro-ballpark era, so it's unapologetically modern — and the exploding scoreboard tradition dates back to Bill Veeck in 1960.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Divvy ~23 min from Presidential Towers (3.7 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "riu-plaza-chicago-rooftop",
+    "name": "Riu Plaza Chicago Rooftop",
+    "status": "visited",
+    "favorite": false,
+    "type": "Rooftop & Bar",
+    "neighborhood": "Streeterville",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "150 E Ontario St",
+    "rating": null,
+    "lat": 41.8934,
+    "lng": -87.6229,
+    "photo": "",
+    "hours": {
+      "mon": "16:00-23:00",
+      "tue": "16:00-23:00",
+      "wed": "16:00-23:00",
+      "thu": "16:00-00:00",
+      "fri": "16:00-00:00",
+      "sat": "14:00-00:00",
+      "sun": "14:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Streeterville hotel rooftop with a pool deck and a clean sightline toward the Hancock and the lake. Less crowded than the Loop rooftops, which is most of the appeal.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Walk ~23 min from Presidential Towers (1.2 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "robie-house",
+    "name": "Robie House",
+    "status": "visited",
+    "favorite": true,
+    "type": "Landmark",
+    "neighborhood": "Hyde Park",
+    "budget": "$$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "5757 S Woodlawn Ave",
+    "rating": null,
+    "lat": 41.7896,
+    "lng": -87.596,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": "10:30-15:00",
+      "fri": "10:30-15:00",
+      "sat": "10:00-15:00",
+      "sun": "10:00-15:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Frank Lloyd Wright's 1910 masterpiece and the definitive Prairie School building — a UNESCO World Heritage Site. The cantilevered roofs extend 20 feet with no visible support; the art glass runs 174 panes. Wright called it 'the cornerstone of modern architecture.'",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Divvy ~43 min from Presidential Towers (6.8 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "rotary-international-world-headquarters",
+    "name": "Rotary International World Headquarters",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "Evanston",
+    "budget": "Free",
+    "transportation": "L / CTA / Metra",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1560 Sherman Ave, Evanston",
+    "rating": null,
+    "lat": 42.0453,
+    "lng": -87.6828,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Global HQ of the service organization founded in Chicago in 1905 by lawyer Paul Harris — the first modern service club in the world, now 1.2 million members across 200 countries. The lobby has a small exhibit on the polio eradication campaign Rotary largely funded.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "11.4 mi out — take the L or Metra (too far to walk or bike comfortably)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "shake-shack-michigan-avenue",
+    "name": "Shake Shack — Michigan Avenue",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "The Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "12 S Michigan Ave",
+    "rating": null,
+    "lat": 41.8916,
+    "lng": -87.6244,
+    "photo": "",
+    "hours": {
+      "mon": "10:30-22:00",
+      "tue": "10:30-22:00",
+      "wed": "10:30-22:00",
+      "thu": "10:30-22:00",
+      "fri": "10:30-23:00",
+      "sat": "10:30-23:00",
+      "sun": "10:30-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The Mag Mile Shack, with outdoor seats looking across to Millennium Park. Reliable, fast, and positioned exactly where you need food between the Bean and the river.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~21 min from Presidential Towers (1.1 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "shedd-aquarium",
+    "name": "Shedd Aquarium",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Museum Campus",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1200 S Lake Shore Dr",
+    "rating": null,
+    "lat": 41.8676,
+    "lng": -87.614,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-18:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "When it opened in 1930 it was the largest indoor aquarium in the world — a million gallons of seawater shipped in by rail from Key West. The Caribbean Reef and the Abbott Oceanarium, with the skyline through the glass behind the beluga pool.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Walk ~34 min from Presidential Towers (1.7 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "skydeck-chicago-willis-tower",
+    "name": "Skydeck Chicago — Willis Tower",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Attraction",
+    "neighborhood": "The Loop",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "233 S Wacker Dr",
+    "rating": null,
+    "lat": 41.8789,
+    "lng": -87.6359,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-22:00",
+      "sat": "09:00-22:00",
+      "sun": "09:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "103 floors up, 1,353 feet — the highest observation deck in the Western Hemisphere. The Ledge's glass boxes cantilever 4.3 feet out from the building with nothing beneath your feet. Five minutes' walk from home and still not done.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Walk ~7 min from Presidential Towers (0.4 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "small-cheval",
+    "name": "Small Cheval",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "2 N Riverside Plaza",
+    "rating": null,
+    "lat": 41.8813,
+    "lng": -87.6395,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-21:00",
+      "tue": "11:00-21:00",
+      "wed": "11:00-21:00",
+      "thu": "11:00-21:00",
+      "fri": "11:00-22:00",
+      "sat": "11:00-22:00",
+      "sun": "11:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The stripped-down sibling of Au Cheval: one burger, done perfectly, no waiting three hours for it. The Riverside Plaza location is steps from the Ogilvie/Union corridor.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~3 min from Presidential Towers (0.1 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "soldier-field",
+    "name": "Soldier Field",
+    "status": "visited",
+    "favorite": false,
+    "type": "Sports",
+    "neighborhood": "Museum Campus",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1410 Museum Campus Dr",
+    "rating": null,
+    "lat": 41.8623,
+    "lng": -87.6167,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-22:00",
+      "sat": "09:00-22:00",
+      "sun": "09:00-22:00"
+    },
+    "notes": "Want to see a Chicago Fire match",
+    "scoutingReport": {
+      "why": "Opened 1924 as a war memorial, the oldest stadium in the NFL, its Doric colonnades still standing over a modern bowl grafted inside them. Home to the Bears and Chicago Fire FC. Still hoping to catch a Fire match here.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "Want to see a Chicago Fire match",
+        "cost": "$$$",
+        "transitPlan": "Walk ~37 min from Presidential Towers (1.9 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "state-and-madison-chicagos-zero-point",
+    "name": "State & Madison — Chicago's Zero Point",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "State St & Madison St",
+    "rating": null,
+    "lat": 41.8819,
+    "lng": -87.6278,
+    "photo": "",
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The origin of Chicago's entire address grid: every address in the city counts outward from this one intersection. Once billed as 'the world's busiest corner.' A plaque marks it. You can stand at 0-0 of a city of 2.7 million people.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~13 min from Presidential Towers (0.7 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "steppenwolf-theatre-company",
+    "name": "Steppenwolf Theatre Company",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Stage & Screen",
+    "neighborhood": "Lincoln Park",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1650 N Halsted St",
+    "rating": null,
+    "lat": 41.9124,
+    "lng": -87.6486,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "19:30-22:00",
+      "wed": "19:30-22:00",
+      "thu": "19:30-22:00",
+      "fri": "19:30-22:30",
+      "sat": "14:00-22:30",
+      "sun": "14:00-20:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Founded 1974 in a church basement by Malkovich, Sinise and Perry — now the most influential ensemble theatre in America, with a Tony for regional theatre and a pipeline straight to Broadway.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "L"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "swedish-american-museum",
+    "name": "Swedish American Museum",
+    "status": "visited",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Andersonville",
+    "budget": "$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "5211 N Clark St",
+    "rating": null,
+    "lat": 41.9773,
+    "lng": -87.669,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "10:00-16:00",
+      "wed": "10:00-16:00",
+      "thu": "10:00-16:00",
+      "fri": "10:00-16:00",
+      "sat": "10:00-16:00",
+      "sun": "11:00-16:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Anchor of historic Andersonville, dedicated to Chicago's Swedish immigrant story — King Carl XVI Gustaf himself dedicated the building in 1976. The third-floor Brunk Children's Museum of Immigration lets kids climb aboard a replica immigrant ship.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Divvy ~42 min from Presidential Towers (6.7 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "taste-of-randolph-street",
+    "name": "Taste of Randolph Street",
+    "status": "visited",
+    "favorite": false,
+    "type": "Music & Festival",
+    "neighborhood": "West Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "W Randolph St, Peoria to Racine",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6489,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": "17:00-22:00",
+      "sat": "12:00-22:00",
+      "sun": "12:00-21:00"
+    },
+    "notes": "Annual — mid-June only",
+    "scoutingReport": {
+      "why": "Three days of Restaurant Row shutting down its own street for music and food — the West Loop's own block party, and the best possible way to eat your way down Randolph in one afternoon. Annual, mid-June.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "Annual — mid-June only",
+        "cost": "$",
+        "transitPlan": "Walk ~8 min from Presidential Towers (0.4 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "temple-sholom-of-chicago",
+    "name": "Temple Sholom of Chicago",
+    "status": "visited",
+    "favorite": false,
+    "type": "Sacred Space",
+    "neighborhood": "Lakeview",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "3480 N Lake Shore Dr",
+    "rating": null,
+    "lat": 41.9435,
+    "lng": -87.6395,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-15:00",
+      "sat": null,
+      "sun": "09:00-13:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A 1930 Byzantine-Romanesque landmark on Lake Shore Drive, one of Chicago's oldest and largest Reform congregations, founded 1867 by German Jewish immigrants. The limestone dome is a fixture of the Lakeview skyline.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~27 min from Presidential Towers (4.2 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "terrace-16-at-trump-tower",
+    "name": "Terrace 16 at Trump Tower",
+    "status": "visited",
+    "favorite": false,
+    "type": "Rooftop & Bar",
+    "neighborhood": "River North",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "401 N Wabash Ave, 16th floor",
+    "rating": null,
+    "lat": 41.8892,
+    "lng": -87.6265,
+    "photo": "",
+    "hours": {
+      "mon": "11:30-22:00",
+      "tue": "11:30-22:00",
+      "wed": "11:30-22:00",
+      "thu": "11:30-23:00",
+      "fri": "11:30-23:00",
+      "sat": "11:00-23:00",
+      "sun": "11:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Sixteen floors up on a terrace that puts you directly level with the river bridges and the Tribune Tower's buttresses. The view of the Wrigley Building from here is the postcard.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Walk ~17 min from Presidential Towers (0.9 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "thalia-hall",
+    "name": "Thalia Hall",
+    "status": "want-to-go",
+    "favorite": true,
+    "type": "Music & Festival",
+    "neighborhood": "Pilsen",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1807 S Allport St",
+    "rating": null,
+    "lat": 41.8577,
+    "lng": -87.6567,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "19:00-23:00",
+      "wed": "19:00-23:00",
+      "thu": "19:00-23:00",
+      "fri": "19:00-01:00",
+      "sat": "19:00-01:00",
+      "sun": "19:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "An 1892 Romanesque Revival opera house modeled on Prague's Old Town Opera House, built by a Bohemian immigrant for Pilsen's Czech community. Restored in 2013 — now one of the best-sounding mid-size rooms in the country.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walking"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "the-606-bloomingdale-trail",
+    "name": "The 606 / Bloomingdale Trail",
+    "status": "visited",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "Wicker Park",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1805 N Bloomingdale Ave",
+    "rating": null,
+    "lat": 41.9137,
+    "lng": -87.6773,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-23:00",
+      "tue": "06:00-23:00",
+      "wed": "06:00-23:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "An abandoned elevated freight line turned into 2.7 miles of trail 17 feet above the street, threading Wicker Park, Bucktown, Humboldt Park and Logan Square. Named for the shared first three digits of every Chicago zip code.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~55 min from Presidential Towers (2.8 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "the-bandit",
+    "name": "The Bandit",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "861 W Randolph St",
+    "rating": null,
+    "lat": 41.8843,
+    "lng": -87.6513,
+    "photo": "",
+    "hours": {
+      "mon": "16:00-02:00",
+      "tue": "16:00-02:00",
+      "wed": "16:00-02:00",
+      "thu": "16:00-02:00",
+      "fri": "16:00-02:00",
+      "sat": "12:00-03:00",
+      "sun": "12:00-02:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "West Loop bar with a big rowdy back patio, frozen drinks, and screens for whatever match is on. Late license — one of the reliable spots when Randolph's restaurants have shut their kitchens.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~10 min from Presidential Towers (0.5 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "the-field-building-bank-of-america-building",
+    "name": "The Field Building (Bank of America Building)",
+    "status": "visited",
+    "favorite": false,
+    "type": "Landmark",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "135 S LaSalle St",
+    "rating": null,
+    "lat": 41.8801,
+    "lng": -87.6323,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The last major skyscraper built in Chicago before the Depression froze construction for two decades (1934). Its Art Deco lobby is a gleaming corridor of marble and polished metal — a time capsule of pre-war optimism.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~10 min from Presidential Towers (0.5 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "the-field-museum",
+    "name": "The Field Museum",
+    "status": "want-to-go",
+    "favorite": false,
+    "type": "Museum",
+    "neighborhood": "Museum Campus",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1400 S Lake Shore Dr",
+    "rating": null,
+    "lat": 41.8663,
+    "lng": -87.617,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "SUE — the largest, most complete Tyrannosaurus rex ever found — plus Máximo the titanosaur, 40 million specimens, and the man-eating Lions of Tsavo. Free for Illinois residents on select days.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Walk ~33 min from Presidential Towers (1.7 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "the-marquette-building",
+    "name": "The Marquette Building",
+    "status": "visited",
+    "favorite": true,
+    "type": "Landmark",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "140 S Dearborn St",
+    "rating": null,
+    "lat": 41.8797,
+    "lng": -87.6295,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "1895 Holabird & Roche tower, one of the purest surviving examples of the Chicago School. The lobby is the real prize: a Tiffany glass mosaic frieze wrapping the balcony, depicting Père Marquette's 1674 expedition, plus bronze relief panels over the entrance.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~12 min from Presidential Towers (0.6 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "the-original-rainbow-cone",
+    "name": "The Original Rainbow Cone",
+    "status": "visited",
+    "favorite": true,
+    "type": "Food & Drink",
+    "neighborhood": "Beverly",
+    "budget": "$",
+    "transportation": "L / CTA / Metra",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "9233 S Western Ave",
+    "rating": null,
+    "lat": 41.7247,
+    "lng": -87.682,
+    "photo": "",
+    "hours": {
+      "mon": "13:00-22:00",
+      "tue": "13:00-22:00",
+      "wed": "13:00-22:00",
+      "thu": "13:00-22:00",
+      "fri": "13:00-23:00",
+      "sat": "12:00-23:00",
+      "sun": "12:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Since 1926: five flavors — chocolate, strawberry, Palmer House (New York vanilla with cherries and walnuts), pistachio, orange sherbet — sliced, not scooped, and stacked into one impossible cone. A South Side institution that predates sliced bread.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "11.1 mi out — take the L or Metra (too far to walk or bike comfortably)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "the-rookery-building",
+    "name": "The Rookery Building",
+    "status": "visited",
+    "favorite": true,
+    "type": "Landmark",
+    "neighborhood": "The Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "209 S LaSalle St",
+    "rating": null,
+    "lat": 41.879,
+    "lng": -87.6323,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": null,
+      "sun": null
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "1888 Burnham & Root landmark whose light court was dramatically remodeled by Frank Lloyd Wright in 1905. The interior spiral staircase and gold-leafed glass ceiling make it one of the most beautiful lobbies in America — and it's free to walk into on weekdays.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~10 min from Presidential Towers (0.5 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "the-second-city",
+    "name": "The Second City",
+    "status": "visited",
+    "favorite": true,
+    "type": "Stage & Screen",
+    "neighborhood": "Old Town",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1616 N Wells St",
+    "rating": null,
+    "lat": 41.9114,
+    "lng": -87.6347,
+    "photo": "",
+    "hours": {
+      "mon": null,
+      "tue": "20:00-22:30",
+      "wed": "20:00-22:30",
+      "thu": "20:00-22:30",
+      "fri": "20:00-23:59",
+      "sat": "19:00-23:59",
+      "sun": "19:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Opened 1959 in a former Chinese laundry. The alumni list is the history of American comedy: Belushi, Murray, Radner, Fey, Colbert, Poehler, Carell, Key, Peele. The free improv set after the main show is one of the best deals in the city.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Bus,L"
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "tribune-tower",
+    "name": "Tribune Tower",
+    "status": "visited",
+    "favorite": true,
+    "type": "Landmark",
+    "neighborhood": "Streeterville",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "435 N Michigan Ave",
+    "rating": null,
+    "lat": 41.8904,
+    "lng": -87.6236,
+    "photo": "",
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Neo-Gothic 1925 tower crowned with flying buttresses copied from Rouen Cathedral. Embedded in its base are actual fragments of the Great Pyramid, the Parthenon, the Berlin Wall and the Alamo — collected by Tribune correspondents worldwide. Converted to residences in 2021, but the stones are still there at street level, labeled, free to touch.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~20 min from Presidential Towers (1.1 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "united-center",
+    "name": "United Center",
+    "status": "visited",
+    "favorite": false,
+    "type": "Sports",
+    "neighborhood": "Near West Side",
+    "budget": "$$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1901 W Madison St",
+    "rating": null,
+    "lat": 41.8807,
+    "lng": -87.6742,
+    "photo": "",
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-22:00",
+      "sat": "10:00-22:00",
+      "sun": "10:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Home of the Bulls and Blackhawks, built 1994 to replace Chicago Stadium. The Michael Jordan statue 'The Spirit' out front is the pilgrimage — worth the trip even with nothing scheduled inside. A 25-minute walk straight west on Madison from the West Loop.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$$",
+        "transitPlan": "Walk ~33 min from Presidential Towers (1.7 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "university-of-chicago",
+    "name": "University of Chicago",
+    "status": "visited",
+    "favorite": true,
+    "type": "University",
+    "neighborhood": "Hyde Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "5801 S Ellis Ave",
+    "rating": null,
+    "lat": 41.7886,
+    "lng": -87.5987,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-18:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Founded 1890 by John D. Rockefeller. 100+ Nobel laureates. The first self-sustaining nuclear chain reaction happened under the west stands of its old football field in 1942 — marked now by Henry Moore's bronze 'Nuclear Energy.' The English Gothic main quad is one of the great American campuses.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~43 min from Presidential Towers (6.9 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "university-of-illinois-chicago-uic",
+    "name": "University of Illinois Chicago (UIC)",
+    "status": "visited",
+    "favorite": false,
+    "type": "University",
+    "neighborhood": "Near West Side",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1200 W Harrison St",
+    "rating": null,
+    "lat": 41.8708,
+    "lng": -87.6505,
+    "photo": "",
+    "hours": {
+      "mon": "08:00-21:00",
+      "tue": "08:00-21:00",
+      "wed": "08:00-21:00",
+      "thu": "08:00-21:00",
+      "fri": "08:00-21:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-18:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Chicago's largest university and a monument of Brutalist campus design by Walter Netsch — his 'field theory' geometry, best seen in the concrete drama of University Hall and the sunken Great Court. Jane Addams' Hull-House survives on its east edge.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~18 min from Presidential Towers (1.0 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "wabash-arts-corridor",
+    "name": "Wabash Arts Corridor",
+    "status": "visited",
+    "favorite": false,
+    "type": "Public Art",
+    "neighborhood": "South Loop",
+    "budget": "Free",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "S Wabash Ave, Harrison to Van Buren",
+    "rating": null,
+    "lat": 41.8757,
+    "lng": -87.6259,
+    "photo": "",
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "An 'urban art canvas' launched by Columbia College in 2013 that turned the walls of the South Loop into one of the densest concentrations of large-scale murals in the country — including Hebru Brantley's Flyboy and Blek le Rat pieces, all free to walk any time.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Walk ~18 min from Presidential Towers (0.9 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "walt-disneys-birthplace",
+    "name": "Walt Disney's Birthplace",
+    "status": "visited",
+    "favorite": true,
+    "type": "Landmark",
+    "neighborhood": "Hermosa",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "2156 N Tripp Ave",
+    "rating": null,
+    "lat": 41.9209,
+    "lng": -87.729,
+    "photo": "",
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "The modest two-flat where Elias and Flora Disney's fourth son Walter was born in 1901 — built by Flora herself from her own plans. Privately restored as a nonprofit; the exterior is viewable any time from the sidewalk. The most consequential small house in American pop culture.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~33 min from Presidential Towers (5.2 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "waterfront-cafe",
+    "name": "Waterfront Cafe",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "Rogers Park",
+    "budget": "$",
+    "transportation": "L / CTA / Metra",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1385 W Loyola Ave, Loyola Beach",
+    "rating": null,
+    "lat": 42.0121,
+    "lng": -87.6607,
+    "photo": "",
+    "hours": {
+      "mon": "11:00-21:00",
+      "tue": "11:00-21:00",
+      "wed": "11:00-21:00",
+      "thu": "11:00-21:00",
+      "fri": "11:00-22:00",
+      "sat": "11:00-22:00",
+      "sun": "11:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "An open-air bar and grill literally on the sand at Loyola Beach — one of very few places in Chicago where you can drink a beer with your feet in beach sand and the skyline far to the south. Summer only.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "9.0 mi out — take the L or Metra (too far to walk or bike comfortably)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "wintrust-arena",
+    "name": "Wintrust Arena",
+    "status": "visited",
+    "favorite": false,
+    "type": "Sports",
+    "neighborhood": "South Loop",
+    "budget": "$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "200 E Cermak Rd",
+    "rating": null,
+    "lat": 41.8515,
+    "lng": -87.627,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-22:00",
+      "sat": "09:00-22:00",
+      "sun": "09:00-22:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "10,387-seat arena attached to McCormick Place, home of the Chicago Sky and DePaul basketball. Small enough that even upper-level seats feel close — one of the best value tickets in Chicago sports.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$",
+        "transitPlan": "Walk ~44 min from Presidential Towers (2.3 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "wishbone",
+    "name": "Wishbone",
+    "status": "visited",
+    "favorite": false,
+    "type": "Food & Drink",
+    "neighborhood": "West Loop",
+    "budget": "$$",
+    "transportation": "Walking",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "161 N Jefferson St",
+    "rating": null,
+    "lat": 41.8846,
+    "lng": -87.6428,
+    "photo": "",
+    "hours": {
+      "mon": "07:00-14:30",
+      "tue": "07:00-14:30",
+      "wed": "07:00-14:30",
+      "thu": "07:00-14:30",
+      "fri": "07:00-14:30",
+      "sat": "08:00-15:00",
+      "sun": "08:00-15:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Southern reconstruction cooking in a big colorful room — shrimp and grits, blackened catfish, cheddar-jalapeño cornbread. A West Loop brunch fixture since 1985. Daytime only.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Walk ~3 min from Presidential Towers (0.2 mi)."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "wooded-island-paul-h-douglas-nature-sanctuary",
+    "name": "Wooded Island (Paul H. Douglas Nature Sanctuary)",
+    "status": "visited",
+    "favorite": false,
+    "type": "Park & Garden",
+    "neighborhood": "Hyde Park",
+    "budget": "Free",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "Jackson Park lagoons",
+    "rating": null,
+    "lat": 41.79,
+    "lng": -87.5817,
+    "photo": "",
+    "hours": {
+      "mon": "06:00-21:00",
+      "tue": "06:00-21:00",
+      "wed": "06:00-21:00",
+      "thu": "06:00-21:00",
+      "fri": "06:00-21:00",
+      "sat": "06:00-21:00",
+      "sun": "06:00-21:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "A 16-acre island in the Jackson Park lagoons, deliberately left as a green refuge at the center of the 1893 fair. Now one of the top birding sites in Illinois — over 300 species recorded on a single island inside city limits.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "Free",
+        "transitPlan": "Divvy ~45 min from Presidential Towers (7.1 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  },
+  {
+    "id": "wrigley-field",
+    "name": "Wrigley Field",
+    "status": "visited",
+    "favorite": true,
+    "type": "Sports",
+    "neighborhood": "Wrigleyville",
+    "budget": "$$",
+    "transportation": "Divvy / Cycling",
+    "plannedTime": "",
+    "duration": "",
+    "travelBuddy": "",
+    "firstVisit": "",
+    "location": "1060 W Addison St",
+    "rating": null,
+    "lat": 41.9484,
+    "lng": -87.6553,
+    "photo": "",
+    "hours": {
+      "mon": "09:00-23:00",
+      "tue": "09:00-23:00",
+      "wed": "09:00-23:00",
+      "thu": "09:00-23:00",
+      "fri": "09:00-23:00",
+      "sat": "09:00-23:00",
+      "sun": "09:00-23:00"
+    },
+    "notes": "",
+    "scoutingReport": {
+      "why": "Built 1914, the second-oldest ballpark in Major League Baseball. The outfield walls are covered in Boston ivy planted in 1937; the center-field scoreboard is still operated by hand; the marquee out front is the most photographed sign in Chicago. Games are seasonal — check the schedule.",
+      "gamePlan": {
+        "bestTime": "",
+        "recurringEvents": "",
+        "cost": "$$",
+        "transitPlan": "Divvy ~29 min from Presidential Towers (4.6 mi), or take the L."
+      },
+      "lookingForwardTo": ""
+    },
+    "postAnalysis": {
+      "snapshot": {
+        "date": "",
+        "timeOfDay": "",
+        "who": "",
+        "howLong": "",
+        "howGotThere": ""
+      },
+      "firstImpression": "",
+      "highlight": "",
+      "lowlight": "",
+      "memoryShelf": [],
+      "wouldGoAgain": ""
+    }
+  }
+]
