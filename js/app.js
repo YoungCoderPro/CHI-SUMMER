@@ -8,7 +8,7 @@
    No build step. Works in VS Code Live Server + GitHub Pages.
    ============================================================ */
 
-   const BUILD = "2026-07-28-marker-fix-3";
+   const BUILD = "2026-07-28-native-symbol-pins-v4";
    const HOME = { lat: 41.8827, lng: -87.6412, name: "Presidential Towers" };
    const CHICAGO_CENTER = [41.8895, -87.6300];
    /* Set your departure date — powers the "days left" countdown + urgency flags.
@@ -48,7 +48,8 @@
      recMode: "urgent",
      strideCount: 0,
      search: "",
-     markers: new Map(),
+     placesLayerReady: false,
+     hoverPopup: null,
      map: null,
      editing: null,   // id being edited in the panel
    };
@@ -533,8 +534,7 @@
      map.on("load", () => {
        try { add3DBuildings(map); } catch (e) { console.error("3D buildings layer failed (map still usable):", e); }
        try { drawStrides(map); } catch (e) { console.error("Streets layer failed (map still usable):", e); }
-       try { drawHome(map); } catch (e) { console.error("Home marker failed:", e); }
-       try { drawPlaces(); } catch (e) { console.error("Place markers failed:", e); }
+       try { initPlacesLayer(map); drawPlaces(); } catch (e) { console.error("Places layer failed:", e); mapErrorBanner(`Pins failed to render: ${e.message}`); }
      });
    
      $("#map-reset")?.addEventListener("click", () => {
@@ -612,42 +612,190 @@
      }).catch(() => {});
    }
    
-   function drawHome(map) {
-     const wrap = document.createElement("div");
-     wrap.className = "pin-home-wrap";
-     wrap.title = "Home base";
-     const dot = document.createElement("div");
-     dot.className = "pin-home";
-     wrap.appendChild(dot);
-     const popup = new maplibregl.Popup({ closeButton: false, offset: 16, className: "place-tip" })
-       .setHTML(`<div class="tip-meta"><div class="tip-name">${esc(HOME.name)}</div><div class="tip-hood">🏠 Home base · West Loop</div></div>`);
-     new maplibregl.Marker({
-       element: wrap,
-       anchor: "center",
-       rotationAlignment: "viewport",
-       pitchAlignment: "viewport",
-     })
-       .setLngLat([HOME.lng, HOME.lat])
-       .addTo(map);
-     wrap.addEventListener("mouseenter", () => popup.setLngLat([HOME.lng, HOME.lat]).addTo(map));
-     wrap.addEventListener("mouseleave", () => popup.remove());
+   /* ============================================================
+      PINS AS A NATIVE SYMBOL LAYER
+      Pins are drawn by MapLibre's own GPU renderer from the map's
+      coordinate system — NOT as HTML elements. This makes it
+      physically impossible for them to drift, stack, or detach when
+      you pan, rotate, tilt or zoom, because no CSS is involved in
+      positioning them at all.
+      ============================================================ */
+   
+   /* Draw a teardrop pin onto a canvas and hand it to MapLibre as a map image. */
+   function makePinImage(color, want, fav, dpr = 2) {
+     const w = 24, h = 32, r = 9.5;
+     const cx = w / 2, cy = r + 2;
+     const cv = document.createElement("canvas");
+     cv.width = w * dpr; cv.height = h * dpr;
+     const ctx = cv.getContext("2d");
+     ctx.scale(dpr, dpr);
+   
+     // teardrop: top circle tapering to a point at the bottom
+     ctx.beginPath();
+     ctx.moveTo(cx, h - 1.5);
+     ctx.quadraticCurveTo(cx - r * 0.98, cy + r * 0.78, cx - r, cy);
+     ctx.arc(cx, cy, r, Math.PI, 0, false);
+     ctx.quadraticCurveTo(cx + r * 0.98, cy + r * 0.78, cx, h - 1.5);
+     ctx.closePath();
+   
+     ctx.fillStyle = color;
+     ctx.fill();
+     ctx.lineWidth = 2.2;
+     ctx.strokeStyle = "#ffffff";
+     if (want) ctx.setLineDash([3.2, 2.2]);   // dashed ring = want-to-go
+     ctx.stroke();
+     ctx.setLineDash([]);
+   
+     // glyph: six-point Chicago star for favorites, check for visited
+     ctx.fillStyle = "#ffffff";
+     if (fav) {
+       const R = 5.4, ri = 2.1;
+       ctx.beginPath();
+       for (let i = 0; i < 12; i++) {
+         const ang = (Math.PI / 6) * i - Math.PI / 2;
+         const rad = i % 2 === 0 ? R : ri;
+         const x = cx + Math.cos(ang) * rad, y = cy + Math.sin(ang) * rad;
+         i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+       }
+       ctx.closePath();
+       ctx.fill();
+     } else if (!want) {
+       ctx.beginPath();
+       ctx.lineWidth = 2.1;
+       ctx.strokeStyle = "#ffffff";
+       ctx.lineCap = "round";
+       ctx.moveTo(cx - 3.4, cy + 0.2);
+       ctx.lineTo(cx - 0.9, cy + 2.8);
+       ctx.lineTo(cx + 3.7, cy - 2.6);
+       ctx.stroke();
+     }
+   
+     return { data: ctx.getImageData(0, 0, cv.width, cv.height), pixelRatio: dpr };
    }
    
-   function pinEl(p) {
-     const color = catColor(p.type);
-     const want = p.status !== "visited";
-     const glyph = p.favorite ? starSVG(11, "#fff") : p.status === "visited" ? "✓" : "";
-     // Wrapper is the marker root — MapLibre sets transform:translate() on it.
-     // The rotated teardrop shape must be a child or the two transforms collide.
-     const wrap = document.createElement("div");
-     wrap.className = "pin-wrap";
-     wrap.title = p.name;
-     const shape = document.createElement("div");
-     shape.className = `pin ${want ? "is-want" : ""}`;
-     shape.style.background = color;
-     shape.innerHTML = `<span class="glyph">${glyph}</span>`;
-     wrap.appendChild(shape);
-     return wrap;
+   /* Home-base image: navy ring with a white centre. */
+   function makeHomeImage(dpr = 2) {
+     const s = 24, cv = document.createElement("canvas");
+     cv.width = s * dpr; cv.height = s * dpr;
+     const ctx = cv.getContext("2d");
+     ctx.scale(dpr, dpr);
+     ctx.beginPath(); ctx.arc(s / 2, s / 2, 10, 0, Math.PI * 2);
+     ctx.fillStyle = "#0B3C5D"; ctx.fill();
+     ctx.lineWidth = 3; ctx.strokeStyle = "#fff"; ctx.stroke();
+     ctx.beginPath(); ctx.arc(s / 2, s / 2, 4.2, 0, Math.PI * 2);
+     ctx.fillStyle = "#fff"; ctx.fill();
+     return { data: ctx.getImageData(0, 0, cv.width, cv.height), pixelRatio: dpr };
+   }
+   
+   function iconIdFor(p) {
+     const cat = (p.type || "default").replace(/[^a-zA-Z]/g, "").toLowerCase();
+     return `pin-${cat}-${p.status === "visited" ? "v" : "w"}-${p.favorite ? "f" : "n"}`;
+   }
+   
+   /* Register every icon variant we might need, once. */
+   function registerPinImages(map) {
+     const cats = [...Object.keys(CATS), "default"];
+     cats.forEach((c) => {
+       const color = c === "default" ? "#6A7B85" : CATS[c].color;
+       const key = c.replace(/[^a-zA-Z]/g, "").toLowerCase();
+       [["v", false], ["w", true]].forEach(([sk, want]) => {
+         [["n", false], ["f", true]].forEach(([fk, fav]) => {
+           const id = `pin-${key}-${sk}-${fk}`;
+           if (map.hasImage(id)) return;
+           const img = makePinImage(color, want, fav);
+           map.addImage(id, img.data, { pixelRatio: img.pixelRatio });
+         });
+       });
+     });
+     if (!map.hasImage("pin-home")) {
+       const h = makeHomeImage();
+       map.addImage("pin-home", h.data, { pixelRatio: h.pixelRatio });
+     }
+   }
+   
+   /* Create the source + layer once, then wire hover/click behaviour. */
+   function initPlacesLayer(map) {
+     registerPinImages(map);
+   
+     map.addSource("places", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+     map.addLayer({
+       id: "places-pins",
+       type: "symbol",
+       source: "places",
+       layout: {
+         "icon-image": ["get", "icon"],
+         "icon-size": 1,
+         "icon-anchor": "bottom",
+         "icon-allow-overlap": true,      // never hide a pin just because pins overlap
+         "icon-ignore-placement": true,
+         "icon-rotation-alignment": "viewport",  // stay upright while the map spins
+         "icon-pitch-alignment": "viewport",     // stay flat to the screen while tilted
+         "symbol-z-order": "viewport-y",
+       },
+     });
+   
+     // home base, its own layer so filters never remove it
+     map.addSource("home", {
+       type: "geojson",
+       data: {
+         type: "FeatureCollection",
+         features: [{
+           type: "Feature",
+           properties: { home: true },
+           geometry: { type: "Point", coordinates: [HOME.lng, HOME.lat] },
+         }],
+       },
+     });
+     map.addLayer({
+       id: "home-pin",
+       type: "symbol",
+       source: "home",
+       layout: {
+         "icon-image": "pin-home",
+         "icon-size": 1,
+         "icon-anchor": "center",
+         "icon-allow-overlap": true,
+         "icon-ignore-placement": true,
+         "icon-rotation-alignment": "viewport",
+         "icon-pitch-alignment": "viewport",
+       },
+     });
+   
+     const popup = new maplibregl.Popup({
+       closeButton: false, closeOnClick: false, className: "place-tip", offset: 20, maxWidth: "220px",
+     });
+     state.hoverPopup = popup;
+   
+     const showTip = (e) => {
+       const f = e.features && e.features[0];
+       if (!f) return;
+       map.getCanvas().style.cursor = "pointer";
+       const p = state.places.find((x) => x.id === f.properties.id);
+       if (!p) return;
+       popup.setLngLat(f.geometry.coordinates.slice()).setHTML(tooltipHTML(p)).addTo(map);
+     };
+     const hideTip = () => { map.getCanvas().style.cursor = ""; popup.remove(); };
+   
+     map.on("mouseenter", "places-pins", showTip);
+     map.on("mousemove", "places-pins", showTip);
+     map.on("mouseleave", "places-pins", hideTip);
+     map.on("click", "places-pins", (e) => {
+       const f = e.features && e.features[0];
+       if (!f) return;
+       hideTip();
+       openPanel(f.properties.id);
+     });
+   
+     const homePopup = new maplibregl.Popup({
+       closeButton: false, closeOnClick: false, className: "place-tip", offset: 16,
+     }).setHTML(`<div class="tip-meta"><div class="tip-name">${esc(HOME.name)}</div><div class="tip-hood">🏠 Home base · West Loop</div></div>`);
+     map.on("mouseenter", "home-pin", () => {
+       map.getCanvas().style.cursor = "pointer";
+       homePopup.setLngLat([HOME.lng, HOME.lat]).addTo(map);
+     });
+     map.on("mouseleave", "home-pin", () => { map.getCanvas().style.cursor = ""; homePopup.remove(); });
+   
+     state.placesLayerReady = true;
    }
    
    function tooltipHTML(p) {
@@ -667,29 +815,22 @@
        </div>`;
    }
    
+   /* Filtering/searching now just swaps the source data — no DOM work at all. */
    function drawPlaces() {
-     state.markers.forEach((m) => m.remove());
-     state.markers.clear();
-     if (!state.map) return;
-     visiblePlaces().forEach((p) => {
-       if (typeof p.lat !== "number" || typeof p.lng !== "number") return;
-       const el = pinEl(p);
-       const popup = new maplibregl.Popup({ closeButton: false, offset: 18, className: "place-tip" })
-         .setHTML(tooltipHTML(p));
-       const marker = new maplibregl.Marker({
-         element: el,
-         anchor: "bottom",
-         rotationAlignment: "viewport",  // pin stays upright when the map spins
-         pitchAlignment: "viewport",     // pin stays flat to the screen when tilted
-       })
-         .setLngLat([p.lng, p.lat])
-         .addTo(state.map);
-       el.addEventListener("mouseenter", () => popup.setLngLat([p.lng, p.lat]).addTo(state.map));
-       el.addEventListener("mouseleave", () => popup.remove());
-       el.addEventListener("click", () => { popup.remove(); openPanel(p.id); });
-       state.markers.set(p.id, marker);
-     });
+     const map = state.map;
+     if (!map || !state.placesLayerReady) return;
+     const src = map.getSource("places");
+     if (!src) return;
+     const features = visiblePlaces()
+       .filter((p) => typeof p.lat === "number" && typeof p.lng === "number")
+       .map((p) => ({
+         type: "Feature",
+         properties: { id: p.id, icon: iconIdFor(p) },
+         geometry: { type: "Point", coordinates: [p.lng, p.lat] },
+       }));
+     src.setData({ type: "FeatureCollection", features });
    }
+   
    
    /* ---------- filtering ---------- */
    function visiblePlaces() {
