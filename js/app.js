@@ -431,6 +431,49 @@
    }
    
    /* ---------- map (MapLibre GL JS + OpenFreeMap — free, no API key, real 3D buildings) ---------- */
+   /* Google-Earth-style shift+drag: horizontal = rotate (bearing), vertical = tilt (pitch).
+      MapLibre has no built-in shift+drag rotate, so we add one. Pan is suspended while
+      Shift is held so the two gestures don't fight. */
+   function enableShiftDragRotate(map) {
+     const canvas = map.getCanvasContainer();
+     let dragging = false, lastX = 0, lastY = 0;
+   
+     // suspend panning whenever Shift is down, so shift+drag can't also pan the map
+     window.addEventListener("keydown", (e) => {
+       if (e.key === "Shift" && map.dragPan.isEnabled()) map.dragPan.disable();
+     });
+     window.addEventListener("keyup", (e) => {
+       if (e.key === "Shift" && !map.dragPan.isEnabled()) map.dragPan.enable();
+     });
+     // safety: if focus is lost mid-gesture, don't leave panning stuck off
+     window.addEventListener("blur", () => { if (!map.dragPan.isEnabled()) map.dragPan.enable(); });
+   
+     canvas.addEventListener("mousedown", (e) => {
+       if (!e.shiftKey || e.button !== 0) return;
+       dragging = true;
+       lastX = e.clientX; lastY = e.clientY;
+       canvas.style.cursor = "move";
+       e.preventDefault();
+     });
+   
+     window.addEventListener("mousemove", (e) => {
+       if (!dragging) return;
+       const dx = e.clientX - lastX;
+       const dy = e.clientY - lastY;
+       lastX = e.clientX; lastY = e.clientY;
+       map.setBearing(map.getBearing() + dx * 0.45);                                  // spin
+       const nextPitch = map.getPitch() - dy * 0.4;                                   // lean
+       map.setPitch(Math.max(0, Math.min(map.getMaxPitch(), nextPitch)));
+     });
+   
+     window.addEventListener("mouseup", () => {
+       if (!dragging) return;
+       dragging = false;
+       canvas.style.cursor = "";
+       if (!map.dragPan.isEnabled()) map.dragPan.enable();
+     });
+   }
+   
    function mapErrorBanner(msg) {
      const wrap = $(".map-wrap");
      if (!wrap) return;
@@ -454,7 +497,13 @@
          zoom: 12,
          pitch: 45,
          bearing: -12,
+         maxPitch: 85,          // let it lean almost to the horizon, Google-Earth style
          antialias: true,
+         dragRotate: true,      // right-click drag / ctrl+drag rotates + pitches
+         pitchWithRotate: true,
+         touchPitch: true,      // two-finger drag tilts on touchscreens
+         boxZoom: false,        // frees up shift+drag for our rotate/tilt handler
+         keyboard: true,        // arrows pan, +/- zoom, shift+arrows rotate/pitch
          attributionControl: { compact: true },
        });
      } catch (e) {
@@ -474,7 +523,10 @@
      canvasHolder.addEventListener("mouseenter", () => map.scrollZoom.enable());
      canvasHolder.addEventListener("mouseleave", () => map.scrollZoom.disable());
    
-     map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-right");
+     enableShiftDragRotate(map);
+   
+     // zoom + compass (compass click resets bearing; drag it to rotate) — top right
+     map.addControl(new maplibregl.NavigationControl({ visualizePitch: true, showCompass: true }), "top-right");
      map.addControl(new maplibregl.ScaleControl({ unit: "imperial" }), "bottom-left");
    
      map.on("load", () => {
@@ -560,28 +612,36 @@
    }
    
    function drawHome(map) {
-     const el = document.createElement("div");
-     el.className = "pin-home";
-     el.title = "Home base";
+     const wrap = document.createElement("div");
+     wrap.className = "pin-home-wrap";
+     wrap.title = "Home base";
+     const dot = document.createElement("div");
+     dot.className = "pin-home";
+     wrap.appendChild(dot);
      const popup = new maplibregl.Popup({ closeButton: false, offset: 16, className: "place-tip" })
        .setHTML(`<div class="tip-meta"><div class="tip-name">${esc(HOME.name)}</div><div class="tip-hood">🏠 Home base · West Loop</div></div>`);
-     new maplibregl.Marker({ element: el, anchor: "center" })
+     new maplibregl.Marker({ element: wrap, anchor: "center" })
        .setLngLat([HOME.lng, HOME.lat])
-       .setPopup(popup)
        .addTo(map);
-     el.addEventListener("mouseenter", () => popup.addTo(map).setLngLat([HOME.lng, HOME.lat]));
-     el.addEventListener("mouseleave", () => popup.remove());
+     wrap.addEventListener("mouseenter", () => popup.setLngLat([HOME.lng, HOME.lat]).addTo(map));
+     wrap.addEventListener("mouseleave", () => popup.remove());
    }
    
    function pinEl(p) {
      const color = catColor(p.type);
      const want = p.status !== "visited";
      const glyph = p.favorite ? starSVG(11, "#fff") : p.status === "visited" ? "✓" : "";
-     const el = document.createElement("div");
-     el.className = `pin ${want ? "is-want" : ""}`;
-     el.style.background = color;
-     el.innerHTML = `<span class="glyph">${glyph}</span>`;
-     return el;
+     // Wrapper is the marker root — MapLibre sets transform:translate() on it.
+     // The rotated teardrop shape must be a child or the two transforms collide.
+     const wrap = document.createElement("div");
+     wrap.className = "pin-wrap";
+     wrap.title = p.name;
+     const shape = document.createElement("div");
+     shape.className = `pin ${want ? "is-want" : ""}`;
+     shape.style.background = color;
+     shape.innerHTML = `<span class="glyph">${glyph}</span>`;
+     wrap.appendChild(shape);
+     return wrap;
    }
    
    function tooltipHTML(p) {
