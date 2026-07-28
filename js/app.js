@@ -8,7 +8,7 @@
    No build step. Works in VS Code Live Server + GitHub Pages.
    ============================================================ */
 
-   const BUILD = "2026-07-28-native-symbol-pins-v4";
+   const BUILD = "2026-07-28-horizon-cull-v5";
    const HOME = { lat: 41.8827, lng: -87.6412, name: "Presidential Towers" };
    const CHICAGO_CENTER = [41.8895, -87.6300];
    /* Set your departure date — powers the "days left" countdown + urgency flags.
@@ -499,7 +499,7 @@
          zoom: 12,
          pitch: 45,
          bearing: -12,
-         maxPitch: 85,          // let it lean almost to the horizon, Google-Earth style
+         maxPitch: 72,          // dramatic 3D lean, but keeps the horizon high in frame
          antialias: true,
          dragRotate: true,      // right-click drag / ctrl+drag rotates + pitches
          pitchWithRotate: true,
@@ -796,6 +796,20 @@
      map.on("mouseleave", "home-pin", () => { map.getCanvas().style.cursor = ""; homePopup.remove(); });
    
      state.placesLayerReady = true;
+   
+     // Re-cull sky pins continuously while the camera moves. Throttled to one
+     // recompute per animation frame so it stays smooth, and run on `move`
+     // (not just `moveend`) so pins never visibly pop in when you release.
+     let cullQueued = false;
+     const recull = () => {
+       if (cullQueued) return;
+       cullQueued = true;
+       requestAnimationFrame(() => { cullQueued = false; drawPlaces(); });
+     };
+     map.on("move", recull);
+     map.on("zoom", recull);
+     map.on("pitch", recull);
+     map.on("rotate", recull);
    }
    
    function tooltipHTML(p) {
@@ -815,14 +829,54 @@
        </div>`;
    }
    
-   /* Filtering/searching now just swaps the source data — no DOM work at all. */
+   /* Screen Y of the horizon line, derived from the camera itself.
+      Anything that projects ABOVE this line is beyond the horizon and will appear
+      to float in the sky — which is exactly what distant pins do at high tilt.
+      We find it by projecting a point 200 miles out along the camera bearing
+      (effectively "infinitely" far) and reading where it lands on screen.
+      At low pitch that lands far off the top (negative), so nothing is culled —
+      correct, because no sky is visible. At high pitch it lands mid-screen and
+      distant pins get culled. Self-adjusting, no magic numbers. */
+   function horizonScreenY(map) {
+     const c = map.getCenter();
+     const R = 3958.8;                                  // earth radius, miles
+     const br = (map.getBearing() * Math.PI) / 180;
+     const d = 200 / R;                                 // 200 miles ≈ infinity at city scale
+     const lat1 = (c.lat * Math.PI) / 180, lon1 = (c.lng * Math.PI) / 180;
+     const lat2 = Math.asin(Math.sin(lat1) * Math.cos(d) + Math.cos(lat1) * Math.sin(d) * Math.cos(br));
+     const lon2 = lon1 + Math.atan2(Math.sin(br) * Math.sin(d) * Math.cos(lat1),
+                                    Math.cos(d) - Math.sin(lat1) * Math.sin(lat2));
+     try {
+       const pt = map.project([(lon2 * 180) / Math.PI, (lat2 * 180) / Math.PI]);
+       return Number.isFinite(pt.y) ? pt.y : -Infinity;
+     } catch {
+       return -Infinity;                                // never cull if we can't tell
+     }
+   }
+   
+   /* Filtering/searching/panning just swaps the source data — no DOM work at all. */
    function drawPlaces() {
      const map = state.map;
      if (!map || !state.placesLayerReady) return;
      const src = map.getSource("places");
      if (!src) return;
+   
+     // Pins projected above this line would hover over the sky. The +28px buffer
+     // also drops the unreadable pile-up sitting right on the horizon.
+     const skyLine = horizonScreenY(map) + 28;
+   
      const features = visiblePlaces()
        .filter((p) => typeof p.lat === "number" && typeof p.lng === "number")
+       // cull only for the MAP — the card grid below still lists every match
+       .filter((p) => {
+         if (skyLine === -Infinity) return true;        // camera flat, nothing to cull
+         try {
+           const pt = map.project([p.lng, p.lat]);
+           return Number.isFinite(pt.y) && pt.y >= skyLine;
+         } catch {
+           return true;
+         }
+       })
        .map((p) => ({
          type: "Feature",
          properties: { id: p.id, icon: iconIdFor(p) },
