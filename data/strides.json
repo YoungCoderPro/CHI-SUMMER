@@ -1,9 +1,9 @@
 {
   "citystridesUrl": "https://citystrides.com/users/109461/cities/2661",
-  "milesWalked": 126.0,
+  "milesWalked": 164.4,
+  "routes": 29,
   "streetsCompleted": 0,
   "totalStreets": 0,
-  "lastUpdated": "2026-07-22",
-  "_note": "milesWalked and routes are auto-computed by tools/gpx_to_geojson.py from your GPX files. streetsCompleted/totalStreets come from your CityStrides Chicago page - fill those in by hand.",
-  "routes": 20
+  "lastUpdated": "2026-07-28",
+  "_note": "milesWalked and routes are auto-computed by tools/gpx_to_geojson.py from your GPX files. streetsCompleted/totalStreets come from your CityStrides Chicago page - fill those in by hand."
 }
