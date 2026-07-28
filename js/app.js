@@ -431,19 +431,42 @@
    }
    
    /* ---------- map (MapLibre GL JS + OpenFreeMap — free, no API key, real 3D buildings) ---------- */
+   function mapErrorBanner(msg) {
+     const wrap = $(".map-wrap");
+     if (!wrap) return;
+     const el = document.createElement("div");
+     el.style.cssText = "position:absolute;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;background:var(--sand);color:var(--flag-red);font-size:13px;font-weight:500;line-height:1.6";
+     el.innerHTML = `⚠ Map failed to load.<br><span style="color:var(--ink-soft);font-weight:400">${esc(msg)}</span><br><span style="color:var(--muted);font-size:11.5px">Check the browser console (F12) for the full error, and confirm index.html, css/style.css and js/app.js are all the latest versions.</span>`;
+     wrap.appendChild(el);
+   }
+   
    function initMap() {
-     const map = new maplibregl.Map({
-       container: "map",
-       style: "https://tiles.openfreemap.org/styles/liberty",
-       center: [CHICAGO_CENTER[1], CHICAGO_CENTER[0]],
-       zoom: 12,
-       pitch: 45,
-       bearing: -12,
-       antialias: true,
-       attributionControl: { compact: true },
-     });
+     if (typeof maplibregl === "undefined") {
+       mapErrorBanner("maplibre-gl.js didn't load — check your internet connection or that the CDN <script> tag in index.html wasn't stripped out.");
+       return;
+     }
+     let map;
+     try {
+       map = new maplibregl.Map({
+         container: "map",
+         style: "https://tiles.openfreemap.org/styles/liberty",
+         center: [CHICAGO_CENTER[1], CHICAGO_CENTER[0]],
+         zoom: 12,
+         pitch: 45,
+         bearing: -12,
+         antialias: true,
+         attributionControl: { compact: true },
+       });
+     } catch (e) {
+       mapErrorBanner(`Map constructor threw: ${e.message}`);
+       return;
+     }
      state.map = map;
      state.mapDefault = { center: [CHICAGO_CENTER[1], CHICAGO_CENTER[0]], zoom: 12, pitch: 45, bearing: -12 };
+   
+     map.on("error", (e) => {
+       console.error("MapLibre error:", e?.error || e);
+     });
    
      // click-to-focus scroll zoom — same courtesy as before so the page still scrolls normally
      map.scrollZoom.disable();
@@ -455,10 +478,10 @@
      map.addControl(new maplibregl.ScaleControl({ unit: "imperial" }), "bottom-left");
    
      map.on("load", () => {
-       add3DBuildings(map);
-       drawStrides(map);
-       drawHome(map);
-       drawPlaces();
+       try { add3DBuildings(map); } catch (e) { console.error("3D buildings layer failed (map still usable):", e); }
+       try { drawStrides(map); } catch (e) { console.error("Streets layer failed (map still usable):", e); }
+       try { drawHome(map); } catch (e) { console.error("Home marker failed:", e); }
+       try { drawPlaces(); } catch (e) { console.error("Place markers failed:", e); }
      });
    
      $("#map-reset")?.addEventListener("click", () => {
@@ -756,14 +779,31 @@
             <button class="pbtn pbtn--danger" id="delete-place">🗑 Remove</button>
           </div>`;
    
+     const photoEditor = editing ? `
+       <div class="hero-photo-edit">
+         <label class="hero-photo-lab">🖼 Header photo — paste an image URL</label>
+         <div class="hero-photo-row">
+           <input class="edit-field" id="photo-url-input" data-key="photo" value="${esc(p.photo || "")}"
+                  placeholder="https://example.com/image.jpg" />
+           <a class="pbtn pbtn--img-search" target="_blank" rel="noopener"
+              href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(p.name + " " + (p.neighborhood || "chicago"))}">
+              🔍 Find on Google Images
+           </a>
+         </div>
+         <p class="hero-photo-hint">On the Google Images tab: right-click any photo → <strong>Copy image address</strong> (Chrome) or <strong>Copy Image Link</strong> (Safari/Firefox) → paste it above. Preview updates as you type.</p>
+       </div>` : "";
+   
      return `
        <div class="panel__hero">
-         ${p.photo ? `<img src="${esc(p.photo)}" alt="${esc(p.name)}">`
-                   : `<div class="panel__hero--placeholder" style="background:${catColor(p.type)}">${esc(p.name.charAt(0).toUpperCase())}</div>`}
+         ${p.photo ? `<img id="hero-img" src="${esc(p.photo)}" alt="${esc(p.name)}"
+                       onerror="this.style.display='none'; document.getElementById('hero-fallback')?.style.setProperty('display','flex');">`
+                   : ""}
+         <div id="hero-fallback" class="panel__hero--placeholder" style="background:${catColor(p.type)};display:${p.photo ? "none" : "flex"}">${esc(p.name.charAt(0).toUpperCase())}</div>
          <div class="panel__hero-grad"></div>
          <button class="panel__close" id="panel-close" aria-label="Close">✕</button>
          <div class="panel__hero-cap">${cat}<h2>${esc(p.name)}</h2></div>
        </div>
+       ${photoEditor}
        <div class="panel__body">
          ${actions}
          ${props}
@@ -795,6 +835,28 @@
      if (state.editing === p.id) {
        $("#save-edit")?.addEventListener("click", () => saveEdits(p.id));
        $("#cancel-edit")?.addEventListener("click", () => { state.editing = null; openPanel(p.id); });
+       // live hero-photo preview: update the header image as soon as a URL is pasted, no save needed to see it
+       $("#photo-url-input")?.addEventListener("input", (e) => {
+         const url = e.target.value.trim();
+         const hero = $(".panel__hero");
+         let img = $("#hero-img");
+         const fallback = $("#hero-fallback");
+         if (!url) {
+           img?.remove();
+           if (fallback) fallback.style.display = "flex";
+           return;
+         }
+         if (!img) {
+           img = document.createElement("img");
+           img.id = "hero-img";
+           img.alt = p.name;
+           hero.prepend(img);
+         }
+         if (fallback) fallback.style.display = "none";
+         img.onerror = () => { img.style.display = "none"; if (fallback) fallback.style.display = "flex"; };
+         img.onload = () => { img.style.display = "block"; };
+         img.src = url;
+       });
        return;
      }
      $("#edit-place")?.addEventListener("click", () => { state.editing = p.id; $("#panel-scroll").innerHTML = panelHTML(p); wirePanel(p); });
