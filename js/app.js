@@ -8,6 +8,7 @@
    No build step. Works in VS Code Live Server + GitHub Pages.
    ============================================================ */
 
+   const BUILD = "2026-07-28-marker-fix-3";
    const HOME = { lat: 41.8827, lng: -87.6412, name: "Presidential Towers" };
    const CHICAGO_CENTER = [41.8895, -87.6300];
    /* Set your departure date — powers the "days left" countdown + urgency flags.
@@ -620,7 +621,12 @@
      wrap.appendChild(dot);
      const popup = new maplibregl.Popup({ closeButton: false, offset: 16, className: "place-tip" })
        .setHTML(`<div class="tip-meta"><div class="tip-name">${esc(HOME.name)}</div><div class="tip-hood">🏠 Home base · West Loop</div></div>`);
-     new maplibregl.Marker({ element: wrap, anchor: "center" })
+     new maplibregl.Marker({
+       element: wrap,
+       anchor: "center",
+       rotationAlignment: "viewport",
+       pitchAlignment: "viewport",
+     })
        .setLngLat([HOME.lng, HOME.lat])
        .addTo(map);
      wrap.addEventListener("mouseenter", () => popup.setLngLat([HOME.lng, HOME.lat]).addTo(map));
@@ -670,7 +676,12 @@
        const el = pinEl(p);
        const popup = new maplibregl.Popup({ closeButton: false, offset: 18, className: "place-tip" })
          .setHTML(tooltipHTML(p));
-       const marker = new maplibregl.Marker({ element: el, anchor: "bottom" })
+       const marker = new maplibregl.Marker({
+         element: el,
+         anchor: "bottom",
+         rotationAlignment: "viewport",  // pin stays upright when the map spins
+         pitchAlignment: "viewport",     // pin stays flat to the screen when tilted
+       })
          .setLngLat([p.lng, p.lat])
          .addTo(state.map);
        el.addEventListener("mouseenter", () => popup.setLngLat([p.lng, p.lat]).addTo(state.map));
@@ -1419,6 +1430,7 @@
    }
    
    async function main() {
+     console.log(`%cMy Chicago Summer — build ${BUILD}`, "color:#13294B;font-weight:bold");
      paintStaticStars();
      try {
        await loadData();

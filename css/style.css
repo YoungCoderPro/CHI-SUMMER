@@ -171,21 +171,26 @@
   .legend .status-ex{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%}
   
   /* ---------- custom HTML marker pins (MapLibre) ---------- */
-  /* CRITICAL: MapLibre positions markers by setting `transform: translate(...)` on the
-     root element it's given. Our teardrop shape needs `transform: rotate(-45deg)`.
-     Those two fight each other, so the shape MUST live on a CHILD of the marker root.
-     .pin-wrap = marker root (MapLibre owns its transform) · .pin = the rotated shape. */
-  .pin-wrap{width:20px;height:20px;position:relative;cursor:pointer}
+  /* TWO rules must be respected or markers detach from their coordinates:
+     1. MapLibre owns the marker ROOT's `position` AND `transform`. Never declare
+        either on .pin-wrap — it sets position:absolute + transform:translate(x,y).
+        (Declaring position:relative here has equal specificity to
+        .maplibregl-marker and, loading later, silently overrides it → pins fly.)
+     2. Our rotated teardrop shape therefore lives on a CHILD (.pin), as a normal
+        block element, so its rotate() can't clobber MapLibre's translate(). */
+  .maplibregl-marker.pin-wrap,
+  .maplibregl-marker.pin-home-wrap{position:absolute;top:0;left:0}  /* re-assert, wins on specificity */
+  .pin-wrap{width:20px;height:20px;cursor:pointer}
   .pin{
     width:20px;height:20px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);
-    border:2.5px solid #fff;box-shadow:0 2px 6px rgba(11,60,93,.35);position:absolute;inset:0;
+    border:2.5px solid #fff;box-shadow:0 2px 6px rgba(11,60,93,.35);position:relative;
   }
   .pin.is-want{opacity:.92;border-style:dashed;border-width:2px}
   .pin .glyph{position:absolute;inset:0;transform:rotate(45deg);display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px}
-  .pin-home-wrap{width:22px;height:22px;position:relative;cursor:pointer}
+  .pin-home-wrap{width:22px;height:22px;cursor:pointer}
   .pin-home{
     width:22px;height:22px;border-radius:50%;background:var(--lake-navy);border:3px solid #fff;
-    box-shadow:0 2px 8px rgba(11,60,93,.5);position:absolute;inset:0;
+    box-shadow:0 2px 8px rgba(11,60,93,.5);position:relative;
   }
   .pin-home::after{content:"";position:absolute;inset:5px;border-radius:50%;background:#fff}
   .pin-fav-star{filter:drop-shadow(0 2px 3px rgba(11,60,93,.4))}
